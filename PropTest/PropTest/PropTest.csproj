@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{18BACBA0-B256-4707-921A-4D69AC766CE1}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Test</RootNamespace>
+    <AssemblyName>Test</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+    <AssemblyOriginatorKeyFile>..\..\..\..\..\..\Program Files (x86)\Hewlett-Packard\HP Support Framework\Resources\Resource.exe.hpsign</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\CaslShared\CaslShared\CaslShared.csproj">
+      <Project>{44430c7a-5b39-44c3-ac83-a1bb5f5a3bff}</Project>
+      <Name>CaslShared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CaslSmBios\CaslSmBios.csproj">
+      <Project>{c9d07408-ea7c-4668-9d62-1eb609707578}</Project>
+      <Name>CaslSmBios</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CaslWmi\CaslWmi.csproj">
+      <Project>{651bc06e-8f51-40ed-9556-e111257b04f6}</Project>
+      <Name>CaslWmi</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Interop.HPQWMIEXLib\Interop.HPQWMIEXLib.csproj">
+      <Project>{6e6a5d46-3c7f-4344-ad7a-821234af34d2}</Project>
+      <Name>Interop.HPQWMIEXLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

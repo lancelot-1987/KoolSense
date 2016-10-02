@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Windows.old\Program Files (x86)\Hewlett-Packard\Shared\CaslWmi.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{651BC06E-8F51-40ED-9556-E111257B04F6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>CaslWmi</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <ApplicationVersion>4.0.112.1</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Management" />
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Module.cs" />
+    <Compile Include="A.cs" />
+    <Compile Include="hpCasl\Command.cs" />
+    <Compile Include="hpCasl\CommandPlugin.cs" />
+    <Compile Include="hpCasl\Event.cs" />
+    <Compile Include="hpCasl\Utility.cs" />
+    <Compile Include="hpCasl\XmlEdit.cs" />
+    <Compile Include="hpCasl\XmlTools.cs" />
+    <Compile Include="CaslWmi\CommandALS.cs" />
+    <Compile Include="CaslWmi\CommandBattery.cs" />
+    <Compile Include="CaslWmi\CommandDebug.cs" />
+    <Compile Include="CaslWmi\enWarrantySize.cs" />
+    <Compile Include="CaslWmi\CommandDiags.cs" />
+    <Compile Include="CaslWmi\CommandF10Setting.cs" />
+    <Compile Include="CaslWmi\CommandFeature.cs" />
+    <Compile Include="CaslWmi\CommandLidSwitch.cs" />
+    <Compile Include="CaslWmi\CommandPanelBrightness.cs" />
+    <Compile Include="CaslWmi\CommandPMC.cs" />
+    <Compile Include="CaslWmi\CommandSmartAdapter.cs" />
+    <Compile Include="CaslWmi\PanelBrightnessHelper.cs" />
+    <Compile Include="CaslWmi\CommandWireless.cs" />
+    <Compile Include="CaslWmi\WmiBios.cs" />
+    <Compile Include="CaslWmi\enBIOSCommands.cs" />
+    <Compile Include="CaslWmi\enBIOSCommandTypes.cs" />
+    <Compile Include="CaslWmi\enReadCmdType.cs" />
+    <Compile Include="CaslWmi\enWriteCmdType.cs" />
+    <Compile Include="CaslWmi\enSecurityCmdType.cs" />
+    <Compile Include="CaslWmi\enPMCManagementCmdType.cs" />
+    <Compile Include="CaslWmi\enPanelBrightnessDataType.cs" />
+    <Compile Include="CaslWmi\enSizeOut.cs" />
+    <Compile Include="CaslWmi\WmiBIOSClient.cs" />
+    <Compile Include="CaslWmi\Properties\Resources.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CaslWmi\Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CaslShared\CaslShared\CaslShared.csproj">
+      <Project>{44430c7a-5b39-44c3-ac83-a1bb5f5a3bff}</Project>
+      <Name>CaslShared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interop.HPQWMIEXLib\Interop.HPQWMIEXLib.csproj">
+      <Project>{6e6a5d46-3c7f-4344-ad7a-821234af34d2}</Project>
+      <Name>Interop.HPQWMIEXLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CaslGlobalEvent\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

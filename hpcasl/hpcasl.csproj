@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Windows.old\Program Files (x86)\Hewlett-Packard\Shared\hpcasl.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0FCF2692-64C9-4C5C-ABFF-2780628B737A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>hpcasl</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>hpCasl</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>3.5.1.1</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Xml" />
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="A.cs" />
+    <Compile Include="ALS.cs" />
+    <Compile Include="Battery.cs" />
+    <Compile Include="CaslEnumerator.cs" />
+    <Compile Include="Casl.cs" />
+    <Compile Include="Debug.cs" />
+    <Compile Include="Diags.cs" />
+    <Compile Include="Docked.cs" />
+    <Compile Include="EDID.cs" />
+    <Compile Include="EventTypeManager.cs" />
+    <Compile Include="EventItem.cs" />
+    <Compile Include="F10Setting.cs" />
+    <Compile Include="Feature.cs" />
+    <Compile Include="PanelBrightness.cs" />
+    <Compile Include="Platform.cs" />
+    <Compile Include="Notification.cs" />
+    <Compile Include="PMC.cs" />
+    <Compile Include="SmartAdapter.cs" />
+    <Compile Include="VT.cs" />
+    <Compile Include="Win32Notification.cs" />
+    <Compile Include="Util.cs" />
+    <Compile Include="Validate.cs" />
+    <Compile Include="Command.cs" />
+    <Compile Include="CommandPlugin.cs" />
+    <Compile Include="CommandPluginInformation.cs" />
+    <Compile Include="CommandPluginEnumerator.cs" />
+    <Compile Include="CommandPluginLoader.cs" />
+    <Compile Include="Event.cs" />
+    <Compile Include="EventPluginLoader.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Wireless.cs" />
+    <Compile Include="CXmlEdit.cs" />
+    <Compile Include="CXmlTools.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CaslShared\CaslShared\CaslShared.csproj">
+      <Project>{44430c7a-5b39-44c3-ac83-a1bb5f5a3bff}</Project>
+      <Name>CaslShared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

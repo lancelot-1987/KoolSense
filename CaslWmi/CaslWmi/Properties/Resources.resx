@@ -1,0 +1,3052 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GetBatteryInfoOutput" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;GetBatteryInfoOutput xmlns="schemas-hp-com.casl"&gt;
+   &lt;Output&gt;
+      &lt;Data&gt;
+         &lt;!--mAh--&gt;
+         &lt;DesignCapacity&gt;5100&lt;/DesignCapacity&gt;
+
+         &lt;!--mAh--&gt;
+         &lt;LastFullChargeCapacity&gt;2447&lt;/LastFullChargeCapacity&gt;
+
+         &lt;!--mAh--&gt;
+         &lt;RemainingCapacity&gt;2447&lt;/RemainingCapacity&gt;
+
+         &lt;MaxError&gt;1&lt;/MaxError&gt;
+
+         &lt;CycleCount&gt;23&lt;/CycleCount&gt;
+         
+         &lt;!--deg C--&gt;
+         &lt;Temperature&gt;41&lt;/Temperature&gt;
+
+         &lt;!--mV--&gt;
+         &lt;Voltage&gt;15551&lt;/Voltage&gt;
+         
+         &lt;!--mA--&gt;
+         &lt;Current&gt;0&lt;/Current&gt;
+         
+         &lt;!--mV--&gt;
+         &lt;DesignVoltage&gt;14400&lt;/DesignVoltage&gt;
+
+         &lt;StatusWord&gt;16608&lt;/StatusWord&gt;
+         
+         &lt;!--mV--&gt;
+         &lt;CellVoltage1&gt;4148&lt;/CellVoltage1&gt;
+
+         &lt;!--mV--&gt;
+         &lt;CellVoltage2&gt;4161&lt;/CellVoltage2&gt;
+
+         &lt;!--mV--&gt;
+         &lt;CellVoltage3&gt;4167&lt;/CellVoltage3&gt;
+
+         &lt;!--mV--&gt;
+         &lt;CellVoltage4&gt;4186&lt;/CellVoltage4&gt;
+
+         &lt;SerialNumber&gt;SER4567890123456&lt;/SerialNumber&gt;
+
+         &lt;Manufacturer&gt;MANUF6789012345678&lt;/Manufacturer&gt;
+
+         &lt;CTLabel&gt;CT34567890123456&lt;/CTLabel&gt;
+
+      &lt;/Data&gt;
+   &lt;/Output&gt;
+&lt;/GetBatteryInfoOutput&gt;
+</value>
+  </data>
+  <data name="GetPMCCalibrationDataOutput" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;GetPMCCalibrationDataOutput xmlns="schemas-hp-com.casl"&gt;
+   &lt;Output&gt;
+      &lt;Data&gt;
+         &lt;F10BIOSStateEnabled&gt;true&lt;/F10BIOSStateEnabled&gt;
+         &lt;CalibrationStatus&gt;true&lt;/CalibrationStatus&gt;
+         &lt;Gain&gt;1&lt;/Gain&gt;
+         &lt;Offset&gt;1&lt;/Offset&gt;
+      &lt;/Data&gt;
+   &lt;/Output&gt;
+&lt;/GetPMCCalibrationDataOutput&gt;</value>
+  </data>
+  <data name="SmartAdapterEmulation" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;SmartAdapterEmulation xmlns="schemas-hp-com.casl"&gt;
+   &lt;Output&gt;
+      &lt;Data&gt;
+         &lt;SmartAdapterStatus&gt;1&lt;/SmartAdapterStatus&gt;
+      &lt;/Data&gt;
+   &lt;/Output&gt;
+&lt;/SmartAdapterEmulation&gt;</value>
+  </data>
+  <data name="F10SettingEmulation" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;F10SettingEmulation xmlns="schemas-hp-com.casl"&gt;
+   &lt;Output&gt;
+      &lt;Data&gt;
+         &lt;DayStarter2Enabled&gt;true&lt;/DayStarter2Enabled&gt;
+         &lt;CustomLogoEnabled&gt;true&lt;/CustomLogoEnabled&gt;
+      &lt;/Data&gt;
+   &lt;/Output&gt;
+&lt;/F10SettingEmulation&gt;</value>
+  </data>
+  <data name="GetEDIDDataEmulation" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;GetEDIDDataEmulation xmlns="schemas-hp-com.casl"&gt;
+   &lt;Output&gt;
+      &lt;Data&gt;
+         &lt;EDIDData&gt;0x01 0x00 0x14 0x50 0x56 0x08 0x11 0x10 0x20 0x03 0x00 0x00 0x00 
+                   0x00 0x14 0x41 0x03 0x02 0x00 0x83 0x04 0x00 0x00 0x00 0x80 0x14 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+                   0x00 0x00 0x00 
+         &lt;/EDIDData&gt;
+      &lt;/Data&gt;
+   &lt;/Output&gt;
+&lt;/GetEDIDDataEmulation&gt;</value>
+  </data>
+  <data name="GetWirelessDeviceInfoOutput" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;GetWirelessDeviceInfoOutput xmlns="schemas-hp-com.casl"&gt;
+   &lt;Output&gt;
+      &lt;Data&gt;
+         &lt;Capabilities&gt;
+            &lt;NumberOfPowerSources&gt;3&lt;/NumberOfPowerSources&gt;
+            &lt;GlobalFeatures&gt;
+               &lt;WWANAntenna&gt;true&lt;/WWANAntenna&gt;
+               &lt;GPSIncluded&gt;true&lt;/GPSIncluded&gt;
+            &lt;/GlobalFeatures&gt;
+         &lt;/Capabilities&gt;
+         &lt;Devices&gt;
+            &lt;Device&gt;
+               &lt;TechnologyType&gt;WLAN&lt;/TechnologyType&gt;
+               &lt;BusType&gt;USB&lt;/BusType&gt;
+               &lt;VendorID&gt;8001&lt;/VendorID&gt;
+               &lt;DeviceID&gt;8001&lt;/DeviceID&gt;
+               &lt;SubVendorID&gt;8001&lt;/SubVendorID&gt;
+               &lt;SubSystemID&gt;8001&lt;/SubSystemID&gt;
+               &lt;PowerSource&gt;0&lt;/PowerSource&gt;
+               &lt;CurrentState&gt;off&lt;/CurrentState&gt;
+               &lt;LastRequestedState&gt;
+                  &lt;WMI&gt;off&lt;/WMI&gt;
+                  &lt;F10&gt;off&lt;/F10&gt;
+                  &lt;HardwareButton&gt;off&lt;/HardwareButton&gt;
+               &lt;/LastRequestedState&gt;
+               &lt;WLANFeatures&gt;
+                  &lt;LANWANSwitching&gt;false&lt;/LANWANSwitching&gt;
+               &lt;/WLANFeatures&gt;
+            &lt;/Device&gt;
+            &lt;Device&gt;
+               &lt;TechnologyType&gt;Bluetooth&lt;/TechnologyType&gt;
+               &lt;BusType&gt;PCI&lt;/BusType&gt;
+               &lt;VendorID&gt;7FFF&lt;/VendorID&gt;
+               &lt;DeviceID&gt;7FFF&lt;/DeviceID&gt;
+               &lt;SubVendorID&gt;7FFF&lt;/SubVendorID&gt;
+               &lt;SubSystemID&gt;7FFF&lt;/SubSystemID&gt;
+               &lt;PowerSource&gt;1&lt;/PowerSource&gt;
+               &lt;CurrentState&gt;on&lt;/CurrentState&gt;
+               &lt;LastRequestedState&gt;
+                  &lt;WMI&gt;on&lt;/WMI&gt;
+                  &lt;F10&gt;on&lt;/F10&gt;
+                  &lt;HardwareButton&gt;on&lt;/HardwareButton&gt;
+               &lt;/LastRequestedState&gt;
+            &lt;/Device&gt;
+            &lt;Device&gt;
+               &lt;TechnologyType&gt;WWAN&lt;/TechnologyType&gt;
+               &lt;BusType&gt;PCI&lt;/BusType&gt;
+               &lt;VendorID&gt;0FB7&lt;/VendorID&gt;
+               &lt;DeviceID&gt;0FB7&lt;/DeviceID&gt;
+               &lt;SubVendorID&gt;0FB7&lt;/SubVendorID&gt;
+               &lt;SubSystemID&gt;0FB7&lt;/SubSystemID&gt;
+               &lt;PowerSource&gt;2&lt;/PowerSource&gt;
+               &lt;CurrentState&gt;on&lt;/CurrentState&gt;
+               &lt;LastRequestedState&gt;
+                  &lt;WMI&gt;on&lt;/WMI&gt;
+                  &lt;F10&gt;on&lt;/F10&gt;
+                  &lt;HardwareButton&gt;on&lt;/HardwareButton&gt;
+               &lt;/LastRequestedState&gt;
+               &lt;WWANFeatures&gt;
+                  &lt;SIMCardAccess&gt;true&lt;/SIMCardAccess&gt;
+                  &lt;PreferredMobileOperatorSetting&gt;5&lt;/PreferredMobileOperatorSetting&gt;
+               &lt;/WWANFeatures&gt;
+            &lt;/Device&gt;
+         &lt;/Devices&gt;
+      &lt;/Data&gt;
+      &lt;Result&gt;
+         &lt;Code&gt;0FB7&lt;/Code&gt;
+         &lt;Message&gt;Message1&lt;/Message&gt;
+      &lt;/Result&gt;
+   &lt;/Output&gt;
+&lt;/GetWirelessDeviceInfoOutput&gt;</value>
+  </data>
+  <data name="DiagsEmulation" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;GetDiagsDataOutput xmlns="schemas-hp-com.casl"&gt;
+   &lt;Output&gt;
+      &lt;Data&gt;
+         &lt;Warranty&gt;01/1/2010&lt;/Warranty&gt;
+         &lt;DiagsLaunchCommandStatus&gt;0&lt;/DiagsLaunchCommandStatus&gt;
+         &lt;BIOSUpdateStatus&gt;0&lt;/BIOSUpdateStatus&gt;
+         &lt;BatteryChargeControl&gt;
+            &lt;!-- List of attached batteries--&gt;
+            &lt;Battery&gt;
+               &lt;!--"Id" indicates the "0-based" identification of the available battery --&gt;
+               &lt;Id&gt;0&lt;/Id&gt;
+               &lt;!--Possible data for values:
+               0 = Reset or normal operation
+               1 = Charging
+               2 = Discharging--&gt;
+               &lt;State&gt;2&lt;/State&gt;
+            &lt;/Battery&gt;
+            &lt;Battery&gt;
+               &lt;Id&gt;1&lt;/Id&gt;
+               &lt;State&gt;1&lt;/State&gt;
+            &lt;/Battery&gt;
+         &lt;/BatteryChargeControl&gt;
+         &lt;!--New for 3.5.20.1  (size = 4 bytes--&gt;
+         &lt;DeviceFirmwareUpdateStatus&gt;0x0,0x0,0x0,0x0&lt;/DeviceFirmwareUpdateStatus&gt;
+         &lt;!--New for 3.5.20.1  (size = 128 bytes--&gt;
+         &lt;ThermalDiagnostics&gt;0x0,0x0,0x0,0x0&lt;/ThermalDiagnostics&gt;
+         &lt;!--// New for 3.5.20.1 (size = 4 bytes--&gt;
+         &lt;FactoryControl&gt;0x0,0x0,0x0,0x0&lt;/FactoryControl&gt;
+         &lt;!--// New for 3.5.20.1 (size = 4 bytes--&gt;
+         &lt;PostCodeError&gt;0x0,0x0,0x0,0x0&lt;/PostCodeError&gt;
+         &lt;!--// New for 3.5.20.1 (size = 4 bytes--&gt;
+         &lt;BatteryChargeControlOverride&gt;0x0,0x0,0x0,0x0&lt;/BatteryChargeControlOverride&gt;
+         &lt;!--// New for 3.5.20.1 (size = 4 bytes--&gt;
+         &lt;ThermalControl&gt;0x0,0x0,0x0,0x0&lt;/ThermalControl&gt;
+      &lt;/Data&gt;
+   &lt;/Output&gt;
+&lt;/GetDiagsDataOutput&gt;</value>
+  </data>
+  <data name="FeatureEmulation" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;FeatureEmulation xmlns="schemas-hp-com.casl"&gt;
+   &lt;Output&gt;
+      &lt;Data&gt;
+         &lt;QuickLook2Supported&gt;true&lt;/QuickLook2Supported&gt;
+         &lt;QuickLook3Supported&gt;true&lt;/QuickLook3Supported&gt;
+         &lt;FastLook3Supported&gt;true&lt;/FastLook3Supported&gt;
+         &lt;FVESupported&gt;true&lt;/FVESupported&gt;
+         &lt;UUKSupported&gt;true&lt;/UUKSupported&gt;
+         &lt;HPSpareKeySupported&gt;true&lt;/HPSpareKeySupported&gt;
+         &lt;PBProductivitySupported&gt;true&lt;/PBProductivitySupported&gt;
+         &lt;DayStarter2Supported&gt;true&lt;/DayStarter2Supported&gt;
+         &lt;LidSwitchSupported&gt;true&lt;/LidSwitchSupported&gt;
+         &lt;QuickWeb3Supported&gt;true&lt;/QuickWeb3Supported&gt;
+      &lt;/Data&gt;
+   &lt;/Output&gt;
+&lt;/FeatureEmulation&gt;</value>
+  </data>
+  <data name="PanelBrightnessEmulation" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;PanelBrightnessEmulation xmlns="schemas-hp-com.casl"&gt;
+   &lt;Output&gt;
+      &lt;Data&gt;
+         &lt;CurrentBrightnessPercent&gt;100&lt;/CurrentBrightnessPercent&gt;
+      &lt;/Data&gt;
+   &lt;/Output&gt;
+&lt;/PanelBrightnessEmulation&gt;</value>
+  </data>
+  <data name="GetPMCCapabilities2Output" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;GetPMCCapabilities2Output xmlns="schemas-hp-com.casl"&gt;
+   &lt;Output&gt;
+      &lt;Data&gt;
+         &lt;MaximumACValue&gt;150&lt;/MaximumACValue&gt;
+         &lt;F10SettingAvailable&gt;false&lt;/F10SettingAvailable&gt;
+         &lt;CalibrationSupport&gt;false&lt;/CalibrationSupport&gt;
+         &lt;S0ACDataCollectionSupport&gt;false&lt;/S0ACDataCollectionSupport&gt;
+         &lt;S3ACDataCollectionSupport&gt;false&lt;/S3ACDataCollectionSupport&gt;
+         &lt;S4S5ACDataCollectionSupport&gt;false&lt;/S4S5ACDataCollectionSupport&gt;
+         &lt;S0DCDataCollectionSupport&gt;false&lt;/S0DCDataCollectionSupport&gt;
+         &lt;S3DCDataCollectionSupport&gt;false&lt;/S3DCDataCollectionSupport&gt;
+         &lt;S4S5DCDataCollectionSupport&gt;false&lt;/S4S5DCDataCollectionSupport&gt;
+         &lt;AccumulatedDataCollectionSupport&gt;false&lt;/AccumulatedDataCollectionSupport&gt;
+         &lt;InstantaneousDataCollectionSupport&gt;false&lt;/InstantaneousDataCollectionSupport&gt;
+         &lt;S0ACCapabilitiesRecord&gt;
+            &lt;RateChangeSupport&gt;false&lt;/RateChangeSupport&gt;
+            &lt;BatteryChargeSupport&gt;false&lt;/BatteryChargeSupport&gt;
+            &lt;ACDCTransitionSupport&gt;false&lt;/ACDCTransitionSupport&gt;
+            &lt;TravelAdapterSupport&gt;false&lt;/TravelAdapterSupport&gt;
+            &lt;ReadSupport&gt;false&lt;/ReadSupport&gt;
+         &lt;/S0ACCapabilitiesRecord&gt;
+         &lt;S3ACCapabilitiesRecord&gt;
+            &lt;RateChangeSupport&gt;false&lt;/RateChangeSupport&gt;
+            &lt;BatteryChargeSupport&gt;false&lt;/BatteryChargeSupport&gt;
+            &lt;ACDCTransitionSupport&gt;false&lt;/ACDCTransitionSupport&gt;
+            &lt;TravelAdapterSupport&gt;false&lt;/TravelAdapterSupport&gt;
+            &lt;WiredNICWakeOnLANSupport&gt;false&lt;/WiredNICWakeOnLANSupport&gt;
+            &lt;WLANWakeOnLANSupport&gt;false&lt;/WLANWakeOnLANSupport&gt;
+            &lt;WWANWakeOnLANSupport&gt;false&lt;/WWANWakeOnLANSupport&gt;
+            &lt;AMTMESupport&gt;false&lt;/AMTMESupport&gt;
+         &lt;/S3ACCapabilitiesRecord&gt;
+         &lt;S4S5ACCapabilitiesRecord&gt;
+            &lt;RateChangeSupport&gt;false&lt;/RateChangeSupport&gt;
+            &lt;BatteryChargeSupport&gt;false&lt;/BatteryChargeSupport&gt;
+            &lt;ACDCTransitionSupport&gt;false&lt;/ACDCTransitionSupport&gt;
+            &lt;TravelAdapterSupport&gt;false&lt;/TravelAdapterSupport&gt;
+            &lt;WiredNICWakeOnLANSupport&gt;false&lt;/WiredNICWakeOnLANSupport&gt;
+            &lt;WLANWakeOnLANSupport&gt;false&lt;/WLANWakeOnLANSupport&gt;
+            &lt;WWANWakeOnLANSupport&gt;false&lt;/WWANWakeOnLANSupport&gt;
+            &lt;AMTMESupport&gt;false&lt;/AMTMESupport&gt;
+         &lt;/S4S5ACCapabilitiesRecord&gt;
+         &lt;S0DCCapabilitiesRecord&gt;
+            &lt;RateChangeSupport&gt;false&lt;/RateChangeSupport&gt;
+            &lt;ACDCTransitionSupport&gt;false&lt;/ACDCTransitionSupport&gt;
+            &lt;ReadSupport&gt;false&lt;/ReadSupport&gt;
+         &lt;/S0DCCapabilitiesRecord&gt;
+         &lt;S3DCCapabilitiesRecord&gt;
+            &lt;RateChangeSupport&gt;false&lt;/RateChangeSupport&gt;
+            &lt;ACDCTransitionSupport&gt;false&lt;/ACDCTransitionSupport&gt;
+            &lt;WiredNICWakeOnLANSupport&gt;false&lt;/WiredNICWakeOnLANSupport&gt;
+            &lt;WLANWakeOnLANSupport&gt;false&lt;/WLANWakeOnLANSupport&gt;
+            &lt;WWANWakeOnLANSupport&gt;false&lt;/WWANWakeOnLANSupport&gt;
+            &lt;AMTMESupport&gt;false&lt;/AMTMESupport&gt;
+         &lt;/S3DCCapabilitiesRecord&gt;
+         &lt;S4S5DCCapabilitiesRecord&gt;
+            &lt;RateChangeSupport&gt;false&lt;/RateChangeSupport&gt;
+            &lt;ACDCTransitionSupport&gt;false&lt;/ACDCTransitionSupport&gt;
+            &lt;WiredNICWakeOnLANSupport&gt;false&lt;/WiredNICWakeOnLANSupport&gt;
+            &lt;WLANWakeOnLANSupport&gt;false&lt;/WLANWakeOnLANSupport&gt;
+            &lt;WWANWakeOnLANSupport&gt;false&lt;/WWANWakeOnLANSupport&gt;
+            &lt;AMTMESupport&gt;false&lt;/AMTMESupport&gt;
+         &lt;/S4S5DCCapabilitiesRecord&gt;
+      &lt;/Data&gt;
+   &lt;/Output&gt;
+&lt;/GetPMCCapabilities2Output&gt;
+</value>
+  </data>
+  <data name="PolicyEmulation" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;Policies&gt;
+   &lt;General&gt;
+      &lt;Global&gt;Software\Policies\Hewlett-Packard\HP Software Framework&lt;/Global&gt;
+      &lt;Current&gt;Software\Policies\Hewlett-Packard\HP Software Framework&lt;/Current&gt;
+   &lt;/General&gt;
+   &lt;Policy&gt;
+      &lt;Name&gt;AllowEmulation&lt;/Name&gt;
+      &lt;DisplayName&gt;Emulation&lt;/DisplayName&gt;
+      &lt;Description&gt;If TRUE, CASL does not make calls to BIOS but get some default data that adheres with the method called&lt;/Description&gt;
+      &lt;Value&gt;false&lt;/Value&gt;
+      &lt;Type&gt;bool&lt;/Type&gt;
+      &lt;Default&gt;false&lt;/Default&gt;
+      &lt;MinValue&gt;false&lt;/MinValue&gt;
+      &lt;MaxValue&gt;true&lt;/MaxValue&gt;
+      &lt;CanOverride&gt;true&lt;/CanOverride&gt;
+      &lt;AdminCanEdit&gt;false&lt;/AdminCanEdit&gt;
+      &lt;PossibleValues&gt;
+         &lt;Value&gt;true&lt;/Value&gt;
+         &lt;Value&gt;false&lt;/Value&gt;
+      &lt;/PossibleValues&gt;
+   &lt;/Policy&gt;
+&lt;/Policies&gt;</value>
+  </data>
+  <data name="GetPMCData2Output" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;GetPMCData2Output xmlns="schemas-hp-com.casl"&gt;
+   &lt;Output&gt;
+      &lt;Data&gt;
+         &lt;DateTime&gt;1900-01-01T01:01:01-06:00&lt;/DateTime&gt;
+         &lt;F10BIOSSettingStateEnabled&gt;true&lt;/F10BIOSSettingStateEnabled&gt;
+         &lt;CalibrationStatus&gt;true&lt;/CalibrationStatus&gt;
+         &lt;S0ACPowerRecord&gt;
+            &lt;SampleRate&gt;0&lt;/SampleRate&gt;
+            &lt;RateChangeOccurred&gt;true&lt;/RateChangeOccurred&gt;
+            &lt;BatteryChargeOccurred&gt;true&lt;/BatteryChargeOccurred&gt;
+            &lt;ACDCTransitionOccurred&gt;true&lt;/ACDCTransitionOccurred&gt;
+            &lt;TravelAdapterAttached&gt;true&lt;/TravelAdapterAttached&gt;
+            &lt;S0ReadStatusCollected&gt;true&lt;/S0ReadStatusCollected&gt;
+            &lt;PowerMeasurementType&gt;0&lt;/PowerMeasurementType&gt;
+            &lt;PowerMeasurementPrecision&gt;0&lt;/PowerMeasurementPrecision&gt;
+            &lt;PowerData&gt;0&lt;/PowerData&gt;
+            &lt;SamplesCollected&gt;0&lt;/SamplesCollected&gt;
+         &lt;/S0ACPowerRecord&gt;
+         &lt;S3ACPowerRecord&gt;
+            &lt;SampleRate&gt;0&lt;/SampleRate&gt;
+            &lt;RateChangeOccurred&gt;false&lt;/RateChangeOccurred&gt;
+            &lt;BatteryChargeOccurred&gt;false&lt;/BatteryChargeOccurred&gt;
+            &lt;ACDCTransitionOccurred&gt;false&lt;/ACDCTransitionOccurred&gt;
+            &lt;TravelAdapterAttached&gt;false&lt;/TravelAdapterAttached&gt;
+            &lt;WiredNICWakeOnLANStatusEnabled&gt;false&lt;/WiredNICWakeOnLANStatusEnabled&gt;
+            &lt;WLANWakeOnLANStatusEnabled&gt;false&lt;/WLANWakeOnLANStatusEnabled&gt;
+            &lt;WWANWakeOnLANStatusEnabled&gt;false&lt;/WWANWakeOnLANStatusEnabled&gt;
+            &lt;AMTMEStatusEnabled&gt;false&lt;/AMTMEStatusEnabled&gt;
+            &lt;PowerMeasurementType&gt;0&lt;/PowerMeasurementType&gt;
+            &lt;PowerMeasurementPrecision&gt;0&lt;/PowerMeasurementPrecision&gt;
+            &lt;PowerData&gt;0&lt;/PowerData&gt;
+            &lt;SamplesCollected&gt;0&lt;/SamplesCollected&gt;
+         &lt;/S3ACPowerRecord&gt;
+         &lt;S4S5ACPowerRecord&gt;
+            &lt;SampleRate&gt;0&lt;/SampleRate&gt;
+            &lt;RateChangeOccurred&gt;true&lt;/RateChangeOccurred&gt;
+            &lt;BatteryChargeOccurred&gt;true&lt;/BatteryChargeOccurred&gt;
+            &lt;ACDCTransitionOccurred&gt;true&lt;/ACDCTransitionOccurred&gt;
+            &lt;TravelAdapterAttached&gt;true&lt;/TravelAdapterAttached&gt;
+            &lt;WiredNICWakeOnLANStatusEnabled&gt;true&lt;/WiredNICWakeOnLANStatusEnabled&gt;
+            &lt;WLANWakeOnLANStatusEnabled&gt;true&lt;/WLANWakeOnLANStatusEnabled&gt;
+            &lt;WWANWakeOnLANStatusEnabled&gt;true&lt;/WWANWakeOnLANStatusEnabled&gt;
+            &lt;AMTMEStatusEnabled&gt;true&lt;/AMTMEStatusEnabled&gt;
+            &lt;PowerMeasurementType&gt;0&lt;/PowerMeasurementType&gt;
+            &lt;PowerMeasurementPrecision&gt;0&lt;/PowerMeasurementPrecision&gt;
+            &lt;PowerData&gt;0&lt;/PowerData&gt;
+            &lt;SamplesCollected&gt;0&lt;/SamplesCollected&gt;
+         &lt;/S4S5ACPowerRecord&gt;
+         &lt;S0DCPowerRecord&gt;
+            &lt;SampleRate&gt;0&lt;/SampleRate&gt;
+            &lt;RateChangeOccurred&gt;false&lt;/RateChangeOccurred&gt;
+            &lt;ACDCTransitionOccurred&gt;false&lt;/ACDCTransitionOccurred&gt;
+            &lt;PowerMeasurementType&gt;0&lt;/PowerMeasurementType&gt;
+            &lt;PowerMeasurementPrecision&gt;0&lt;/PowerMeasurementPrecision&gt;
+            &lt;PowerData&gt;0&lt;/PowerData&gt;
+            &lt;SamplesCollected&gt;0&lt;/SamplesCollected&gt;
+         &lt;/S0DCPowerRecord&gt;
+         &lt;S3DCPowerRecord&gt;
+            &lt;SampleRate&gt;0&lt;/SampleRate&gt;
+            &lt;RateChangeOccurred&gt;false&lt;/RateChangeOccurred&gt;
+            &lt;ACDCTransitionOccurred&gt;false&lt;/ACDCTransitionOccurred&gt;
+            &lt;PowerMeasurementType&gt;0&lt;/PowerMeasurementType&gt;
+            &lt;PowerMeasurementPrecision&gt;0&lt;/PowerMeasurementPrecision&gt;
+            &lt;PowerData&gt;0&lt;/PowerData&gt;
+            &lt;SamplesCollected&gt;0&lt;/SamplesCollected&gt;
+         &lt;/S3DCPowerRecord&gt;
+         &lt;S4S5DCPowerRecord&gt;
+            &lt;SampleRate&gt;0&lt;/SampleRate&gt;
+            &lt;RateChangeOccurred&gt;false&lt;/RateChangeOccurred&gt;
+            &lt;ACDCTransitionOccurred&gt;false&lt;/ACDCTransitionOccurred&gt;
+            &lt;PowerMeasurementType&gt;0&lt;/PowerMeasurementType&gt;
+            &lt;PowerMeasurementPrecision&gt;0&lt;/PowerMeasurementPrecision&gt;
+            &lt;PowerData&gt;0&lt;/PowerData&gt;
+            &lt;SamplesCollected&gt;0&lt;/SamplesCollected&gt;
+         &lt;/S4S5DCPowerRecord&gt;
+      &lt;/Data&gt;
+   &lt;/Output&gt;
+&lt;/GetPMCData2Output&gt;
+</value>
+  </data>
+  <data name="PolicySigning" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Policies&gt;
+   &lt;General&gt;
+      &lt;Global&gt;Software\Policies\Hewlett-Packard\HP Software Framework&lt;/Global&gt;
+      &lt;Current&gt;Software\Policies\Hewlett-Packard\HP Software Framework&lt;/Current&gt;
+   &lt;/General&gt;
+   &lt;Policy&gt;
+      &lt;Name&gt;AllowUnsignedAssemblies&lt;/Name&gt;
+      &lt;DisplayName&gt;AllowUnsignedAssemblies&lt;/DisplayName&gt;
+      &lt;Description&gt;True: This configuration is used during development and test. And error is reported to the Windows Event Viewer.  An error is sent to the Event log to indicate that an unsigned assembly was called.False: This is the default.  Calling process must be signed by HP.  If the process is not signed by HP, the HP CASL method will fail.&lt;/Description&gt;
+      &lt;Value&gt;false&lt;/Value&gt;
+      &lt;Type&gt;bool&lt;/Type&gt;
+      &lt;Default&gt;false&lt;/Default&gt;
+      &lt;MinValue&gt;false&lt;/MinValue&gt;
+      &lt;MaxValue&gt;true&lt;/MaxValue&gt;
+      &lt;CanOverride&gt;true&lt;/CanOverride&gt;
+      &lt;AdminCanEdit&gt;false&lt;/AdminCanEdit&gt;
+      &lt;PossibleValues&gt;
+         &lt;Value&gt;true&lt;/Value&gt;
+         &lt;Value&gt;false&lt;/Value&gt;
+      &lt;/PossibleValues&gt;
+   &lt;/Policy&gt;
+&lt;/Policies&gt;
+</value>
+  </data>
+  <data name="WirelessGlobalDeviceInfoOutput" xml:space="preserve">
+    <value>&lt;?xml version="1.0"?&gt;
+&lt;WirelessGlobalDeviceInfoOutput xmlns="schemas-hp-com.casl"&gt;
+   &lt;Output&gt;
+      &lt;Data&gt;
+         &lt;Capabilities&gt;
+            &lt;NumberOfPowerSources&gt;2&lt;/NumberOfPowerSources&gt;
+            &lt;GlobalFeatures&gt;
+               &lt;WWANAntenna&gt;true&lt;/WWANAntenna&gt;
+               &lt;GPSIncluded&gt;false&lt;/GPSIncluded&gt;
+            &lt;/GlobalFeatures&gt;
+         &lt;/Capabilities&gt;
+         &lt;Devices&gt;
+            &lt;Device&gt;
+               &lt;TechnologyType&gt;Bluetooth&lt;/TechnologyType&gt;
+               &lt;BusType&gt;USB&lt;/BusType&gt;
+               &lt;VendorID&gt;03F0&lt;/VendorID&gt;
+               &lt;DeviceID&gt;171D&lt;/DeviceID&gt;
+               &lt;SubVendorID&gt;0000&lt;/SubVendorID&gt;
+               &lt;SubSystemID&gt;0000&lt;/SubSystemID&gt;
+               &lt;PowerSource&gt;1&lt;/PowerSource&gt;
+               &lt;CurrentState&gt;on&lt;/CurrentState&gt;
+               &lt;LastRequestedState&gt;
+                  &lt;WMI Changed="true"&gt;on&lt;/WMI&gt;
+                  &lt;F10 Changed="true"&gt;on&lt;/F10&gt;
+                  &lt;HardwareButton Changed="false"&gt;on&lt;/HardwareButton&gt;
+                  &lt;DeviceManager&gt;
+                     &lt;Device Changed="false"&gt;
+                        &lt;Type&gt;BusDevice&lt;/Type&gt;
+                        &lt;PNPID&gt;&lt;![CDATA[USB\VID_03F0&amp;PID_171D]]&gt;&lt;/PNPID&gt;
+                        &lt;State&gt;off&lt;/State&gt;
+                     &lt;/Device&gt;
+                  &lt;/DeviceManager&gt;
+               &lt;/LastRequestedState&gt;
+               &lt;FriendlyName&gt;&lt;![CDATA[HP Integrated Module with Bluetooth 2.0 Wireless Technology]]&gt;&lt;/FriendlyName&gt;
+            &lt;/Device&gt;
+            &lt;Device&gt;
+               &lt;TechnologyType&gt;WLAN&lt;/TechnologyType&gt;
+               &lt;BusType&gt;PCI&lt;/BusType&gt;
+               &lt;VendorID&gt;8086&lt;/VendorID&gt;
+               &lt;DeviceID&gt;4236&lt;/DeviceID&gt;
+               &lt;SubVendorID&gt;8086&lt;/SubVendorID&gt;
+               &lt;SubSystemID&gt;1011&lt;/SubSystemID&gt;
+               &lt;PowerSource&gt;0&lt;/PowerSource&gt;
+               &lt;CurrentState&gt;on&lt;/CurrentState&gt;
+               &lt;LastRequestedState&gt;
+                  &lt;WMI Changed="true"&gt;on&lt;/WMI&gt;
+                  &lt;F10 Changed="true"&gt;on&lt;/F10&gt;
+                  &lt;HardwareButton Changed="false"&gt;on&lt;/HardwareButton&gt;
+                  &lt;DeviceManager&gt;
+                     &lt;Device Changed="false"&gt;
+                        &lt;Type&gt;NDISDevice&lt;/Type&gt;
+                        &lt;PNPID&gt;&lt;![CDATA[PCI\VEN_8086&amp;DEV_4236&amp;SUBSYS_10118086]]&gt;&lt;/PNPID&gt;
+                        &lt;State&gt;off&lt;/State&gt;
+                     &lt;/Device&gt;
+                  &lt;/DeviceManager&gt;
+                  &lt;RadioState Changed="false"&gt;on&lt;/RadioState&gt;
+               &lt;/LastRequestedState&gt;
+               &lt;WLANFeatures&gt;
+                  &lt;LANWANSwitching&gt;false&lt;/LANWANSwitching&gt;
+               &lt;/WLANFeatures&gt;
+               &lt;FriendlyName&gt;&lt;![CDATA[Intel(R) WiFi Link 5300 AGN]]&gt;&lt;/FriendlyName&gt;
+            &lt;/Device&gt;
+         &lt;/Devices&gt;
+      &lt;/Data&gt;
+   &lt;/Output&gt;
+&lt;/WirelessGlobalDeviceInfoOutput&gt;
+</value>
+  </data>
+  <data name="GetDockEmulation" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;GetEDIDDataEmulation xmlns="schemas-hp-com.casl"&gt;
+   &lt;Output&gt;
+      &lt;Data&gt;
+         &lt;EDIDData&gt;0x00 0x00 0x00 0x00 
+         &lt;/EDIDData&gt;
+      &lt;/Data&gt;
+   &lt;/Output&gt;
+&lt;/GetEDIDDataEmulation&gt;</value>
+  </data>
+  <data name="ALSEmulation" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ALSEmulation xmlns="schemas-hp-com.casl"&gt;
+   &lt;Output&gt;
+      &lt;Data&gt;
+         &lt;ALSSupported&gt;true&lt;/ALSSupported&gt;
+         &lt;ALSEnabled&gt;true&lt;/ALSEnabled&gt;
+      &lt;/Data&gt;
+   &lt;/Output&gt;
+&lt;/ALSEmulation&gt;
+</value>
+  </data>
+  <data name="GetDiagsDataOutput" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;GetDiagsDataOutput xmlns="schemas-hp-com.casl"&gt;
+   &lt;Output&gt;
+      &lt;Data&gt;
+         &lt;Warranty&gt;090121&lt;/Warranty&gt;
+         &lt;DiagsLaunchCommandStatus&gt;0&lt;/DiagsLaunchCommandStatus&gt;
+         &lt;BIOSUpdateStatus&gt;0&lt;/BIOSUpdateStatus&gt;
+         &lt;BatteryChargeControl&gt;
+            &lt;!-- List of attached batteries--&gt;
+            &lt;Battery&gt;
+               &lt;!--"Id" indicates the "0-based" identification of the available battery --&gt;
+               &lt;Id&gt;0&lt;/Id&gt;
+               &lt;!--Possible data for values:
+               0 = Reset or normal operation
+               1 = Charging
+               2 = Discharging--&gt;
+               &lt;State&gt;2&lt;/State&gt;
+            &lt;/Battery&gt;
+            &lt;Battery&gt;
+               &lt;Id&gt;1&lt;/Id&gt;
+               &lt;State&gt;1&lt;/State&gt;
+            &lt;/Battery&gt;
+         &lt;/BatteryChargeControl&gt;
+      &lt;/Data&gt;
+   &lt;/Output&gt;
+&lt;/GetDiagsDataOutput&gt;</value>
+  </data>
+  <data name="hpCASL" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;xs:schema attributeFormDefault="unqualified"
+           elementFormDefault="qualified"
+           targetNamespace="schemas-hp-com.casl"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:hptyp="schemas-hp-com.casl"
+           xmlns="schemas-hp-com.casl"
+           version="0.1"&gt;
+   &lt;!-- CaslDriveEncryptionOutput --&gt;
+   &lt;xs:element name="CaslDriveEncryptionOutput"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Technology" type="fveTechnologyType" /&gt;
+            &lt;xs:element name="DriveEncryptionStatus" minOccurs="1" maxOccurs="1" &gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Changed" type="yesNoType" minOccurs="1" maxOccurs="1" /&gt;
+                     &lt;xs:element name="State" type="fveType" minOccurs="0" maxOccurs="1" /&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+   &lt;!-- ALSEmulation --&gt;
+   &lt;xs:element name="ALSEmulation"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Output" minOccurs="1" maxOccurs="1"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Data" minOccurs="1" maxOccurs="1"&gt;
+                        &lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="ALSSupported"
+                                          type="xs:boolean"
+                                          minOccurs="1"
+                                          maxOccurs="1"/&gt;
+                              &lt;xs:element name="ALSEnabled"
+                                          type="xs:boolean"
+                                          minOccurs="1"
+                                          maxOccurs="1"/&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;
+                     &lt;/xs:element&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+   &lt;!--FeatureEmulation--&gt;
+   &lt;xs:element name="FeatureEmulation"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Output"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Data"&gt;
+                        &lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="QuickLook2Supported" type="xs:boolean" /&gt;
+                              &lt;xs:element name="QuickLook3Supported" type="xs:boolean" /&gt;
+                              &lt;xs:element name="FastLook3Supported" type="xs:boolean" /&gt;
+                              &lt;xs:element name="FVESupported" type="xs:boolean" /&gt;
+                              &lt;xs:element name="UUKSupported" type="xs:boolean" /&gt;
+                              &lt;xs:element name="HPSpareKeySupported" type="xs:boolean" /&gt;
+                              &lt;xs:element name="PBProductivitySupported" type="xs:boolean" /&gt;
+                              &lt;xs:element name="DayStarter2Supported" type="xs:boolean" /&gt;
+                              &lt;xs:element name="LidSwitchSupported" type="xs:boolean" /&gt;
+                              &lt;xs:element name="QuickWeb3Supported" type="xs:boolean"/&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;
+                     &lt;/xs:element&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+   &lt;!--F10SettingEmulation--&gt;
+   &lt;xs:element name="F10SettingEmulation"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Output"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Data"&gt;
+                        &lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="DayStarter2Enabled" type="xs:boolean" /&gt;
+                              &lt;xs:element name="CustomLogoEnabled" type="xs:boolean" /&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;
+                     &lt;/xs:element&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+   &lt;!-- PanelBrightnessEmulation--&gt;
+   &lt;xs:element name="PanelBrightnessEmulation"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Output" minOccurs="1" maxOccurs="1"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Data" minOccurs="1" maxOccurs="1"&gt;
+                        &lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="CurrentBrightnessPercent"
+                                          type="DecimalPercent"
+                                          minOccurs="1"
+                                          maxOccurs="1"/&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;
+                     &lt;/xs:element&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+   &lt;!-- SmartAdapterEmulation --&gt;
+   &lt;xs:element name="SmartAdapterEmulation"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Output" minOccurs="1" maxOccurs="1"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Data" minOccurs="1" maxOccurs="1"&gt;
+                        &lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="SmartAdapterStatus"
+                                          type="SmartAdapterStatusValue"
+                                          minOccurs="1"
+                                          maxOccurs="1"/&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;
+                     &lt;/xs:element&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+   &lt;!-- DebugEmulation --&gt;
+   &lt;xs:element name="DebugEmulation"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Output" minOccurs="1" maxOccurs="1"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Data" minOccurs="1" maxOccurs="1"&gt;
+                        &lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="PowerSource"
+                                          type="xs:string"
+                                          minOccurs="1"
+                                          maxOccurs="1"/&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;
+                     &lt;/xs:element&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+   &lt;!-- SetWirelessStateInput --&gt;
+   &lt;xs:element name="SetWirelessStateInput"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Input"
+                        minOccurs="1"
+                        maxOccurs="1"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Data"
+                                 minOccurs="1"
+                                 maxOccurs="1"&gt;
+                        &lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="PowerSource"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:unsignedByte" /&gt;
+                              &lt;xs:element name="RequestedState"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="onOffType" /&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;
+                     &lt;/xs:element&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+
+   &lt;!-- SetSMCCommandInput --&gt;
+   &lt;xs:element name="SetSMCCommandInput"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Input" minOccurs="1" maxOccurs="unbounded"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Location" type="SMCLocationType" minOccurs="1" maxOccurs="1"&gt;
+                        &lt;xs:annotation&gt;
+                           &lt;xs:documentation&gt;
+                              Possible Location values include Default, Embedded, Path.
+
+                              If Default, then BIOS will look in the default location for the SMC command,
+                              e.g. USB key or HP_TOOLS partition. The caller is responsible for copying
+                              the command to the proper location in this case.
+
+                              If Embedded, then the command itself is embedded in this XML, base-64
+                              encoded.
+
+                              If Path, then this XML will contain the Unicode Path to the
+                              location of the command. Currently Path is not supported. When Path is implemented,
+                              the caller will provide a resolvable file path, and CASL will take
+                              responsibility for translating the path to something that BIOS can understand,
+                              or else CASL will retrieve the command from the target path, and copy
+                              it to HP_TOOLs. In this latter circumstance, CASL will also take responsibility
+                              for telling the BIOS that the command copied to HP_TOOLS will be in the
+                              BIOS default location. The caller MUST use Path as the location.
+                           &lt;/xs:documentation&gt;
+                        &lt;/xs:annotation&gt;
+                     &lt;/xs:element&gt;
+                     &lt;xs:element name="Command" type="xs:string" minOccurs="0" maxOccurs="1"&gt;
+                        &lt;xs:annotation&gt;
+                           &lt;xs:documentation&gt;
+                              Command is optional overall but must be present if Location is Embedded.
+                              If Location is not Embedded, then Command is ignored.
+                              Command is the full, signed SMC command, base-64 encoded.
+                           &lt;/xs:documentation&gt;
+                        &lt;/xs:annotation&gt;
+                     &lt;/xs:element&gt;
+                     &lt;xs:element name="Path" minOccurs="0" maxOccurs="1"&gt;
+                        &lt;xs:annotation&gt;
+                           &lt;xs:documentation&gt;
+                              Path is optional overall but must be present if Location is Path.
+                              Details follow, within the Path element.
+                              If Location is not Path, then the Path element is ignored.
+                           &lt;/xs:documentation&gt;
+                        &lt;/xs:annotation&gt;
+                        &lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="Protocol" type="xs:string" minOccurs="1" maxOccurs="1"&gt;
+                                 &lt;xs:annotation&gt;
+                                    &lt;xs:documentation&gt;
+                                       Valid values for Protocol include File, FTP or HTTP.
+
+                                       If File, then the Path must be a valid Windows File path or UNC location, e.g.
+                                       C:\Temp\Command.smc or \\Server\Share\SMC\Command.smc
+
+                                       If FTP, then the path must be a valid FTP URL, e.g. ftp://server.domain.com/SMC/Command.smc
+
+                                       If HTTP, then the path must be a valid HTTP URL, e.g. http://server.somain.com/SMC/Command.smc
+
+                                       In all cases, if the path points to a server whose locations are case-sensitive, then the
+                                       caller is reponsible for ensuring that the path is in the proper case. For instance, Linux FTP
+                                       and HTTP servers both use case-sensitive paths while such servers on Windows do not
+                                       use case-sensitive paths, at least not by default.
+
+                                       In all cases, the caller is responsible for ensuring that the calling process has read
+                                       access to the command location.
+                                    &lt;/xs:documentation&gt;
+                                 &lt;/xs:annotation&gt;
+                              &lt;/xs:element&gt;
+                              &lt;xs:element name="Source" type="xs:string" minOccurs="1" maxOccurs="1"&gt;
+                                 &lt;xs:annotation&gt;
+                                    &lt;xs:documentation&gt;
+                                       Source is the URL or file path source of the SMC command file.
+                                       Proper syntax is the responsibility of the caller. HTTP sources must be a valid
+                                       HTTP URL that is accessible over the network without a proxy.
+                                       FTP sources must be a valid FTP URL that is similarly accessible over the
+                                       network without a proxy.
+                                       File path sources must be valid a local file path (e.g. C:\Foler\Command.smc)
+                                       or a valid UNC file path (e.g. \\Server\Share\Command.smc.
+                                       In all cases, the caller is responsible for ensuring that the calling process has read
+                                       access to the source location.
+                                    &lt;/xs:documentation&gt;
+                                 &lt;/xs:annotation&gt;
+                              &lt;/xs:element&gt;
+                              &lt;xs:element name="Target" minOccurs="0" maxOccurs="1"&gt;
+                                 &lt;xs:annotation&gt;
+                                    &lt;xs:documentation&gt;
+                                       Target is optional. If used, it must be the drive letter
+                                       of a USB key (with our without terminating \ character).
+                                       If left blank, CASL writes the SMC command to an appropriate location
+                                       on the HP_TOOLS partition.
+
+                                       The caller is responsible for ensuring write access to the Target if Target
+                                       is specified. If Target is specified for a location that is not a USB key
+                                       or the proper location on the HP_TOOLS partition, then the command succeeds,
+                                       but execution of the SMC fails because BIOS will not be able to find it.
+                                    &lt;/xs:documentation&gt;
+                                 &lt;/xs:annotation&gt;
+                              &lt;/xs:element&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;
+                     &lt;/xs:element&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+
+   &lt;!-- GetWirelessDeviceInfoOutput --&gt;
+   &lt;xs:element name="GetWirelessDeviceInfoOutput"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Output"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Data"
+                                 minOccurs="1"
+                                 maxOccurs="1"&gt;
+                        &lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="Capabilities"
+                                          minOccurs="1"
+                                          maxOccurs="1"&gt;
+                                 &lt;xs:complexType&gt;
+                                    &lt;xs:sequence&gt;
+                                       &lt;xs:element name="NumberOfPowerSources"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:unsignedByte"/&gt;
+                                       &lt;xs:element name="GlobalFeatures"&gt;
+                                          &lt;xs:complexType&gt;
+                                             &lt;xs:sequence&gt;
+                                                &lt;xs:element name="WWANAntenna"
+                                                            minOccurs="0"
+                                                            maxOccurs="1"
+                                                            type="xs:boolean"/&gt;
+                                                &lt;xs:element name="GPSIncluded"
+                                                            minOccurs="0"
+                                                             maxOccurs="1"
+                                                             type="xs:boolean"/&gt;
+                                                &lt;xs:element name="WoWWAN"
+                                                             minOccurs="0"
+                                                             maxOccurs="1"
+                                                             type="xs:boolean"/&gt;
+                                             &lt;/xs:sequence&gt;
+                                          &lt;/xs:complexType&gt;
+                                       &lt;/xs:element&gt;
+                                    &lt;/xs:sequence&gt;
+                                 &lt;/xs:complexType&gt;
+                              &lt;/xs:element&gt;
+                              &lt;xs:element name="Devices"&gt;
+                                 &lt;xs:complexType&gt;
+                                    &lt;xs:sequence&gt;
+                                       &lt;xs:element name="Device"
+                                                    minOccurs="0"
+                                                   maxOccurs="unbounded"&gt;
+                                          &lt;xs:complexType&gt;
+                                             &lt;xs:sequence&gt;
+                                                &lt;xs:element name="TechnologyType"
+                                                            minOccurs="1"
+                                                            maxOccurs="1"
+                                                            type="technologyTypeValue"/&gt;
+                                                &lt;xs:element name="BusType"
+                                                            minOccurs="1"
+                                                            maxOccurs="1"
+                                                            type="busType" /&gt;
+                                                &lt;xs:element name="VendorID"
+                                                            minOccurs="1"
+                                                            maxOccurs="1"
+                                                            type="hexBinary-4" /&gt;
+                                                &lt;xs:element name="DeviceID"
+                                                            minOccurs="1"
+                                                            maxOccurs="1"
+                                                            type="hexBinary-4"/&gt;
+                                                &lt;xs:element name="SubVendorID"
+                                                            minOccurs="1"
+                                                            maxOccurs="1"
+                                                            type="hexBinary-4"/&gt;
+                                                &lt;xs:element name="SubSystemID"
+                                                            minOccurs="1"
+                                                            maxOccurs="1"
+                                                            type="hexBinary-4"/&gt;
+                                                &lt;xs:element name="PowerSource"
+                                                            minOccurs="1"
+                                                            maxOccurs="1"
+                                                            type="xs:unsignedByte"/&gt;
+                                                &lt;xs:element name="CurrentState"
+                                                            minOccurs="1"
+                                                            maxOccurs="1"
+                                                            type="onOffType" /&gt;
+                                                &lt;xs:element name="LastRequestedState"
+                                                            minOccurs="1"
+                                                            maxOccurs="1" &gt;
+                                                   &lt;xs:complexType&gt;
+                                                      &lt;xs:sequence&gt;
+                                                         &lt;xs:element name="WMI"
+                                                                     minOccurs="1"
+                                                                     maxOccurs="1"
+                                                                     type="onOffType" /&gt;
+                                                         &lt;xs:element name="F10"
+                                                                     minOccurs="1"
+                                                                     maxOccurs="1"
+                                                                     type="onOffType" /&gt;
+                                                         &lt;xs:element name="HardwareButton"
+                                                                     minOccurs="1"
+                                                                     maxOccurs="1"
+                                                                     type="onOffType" /&gt;
+                                                      &lt;/xs:sequence&gt;
+                                                   &lt;/xs:complexType&gt;
+                                                &lt;/xs:element&gt;
+                                                &lt;xs:element name="DeviceManager" minOccurs="0" maxOccurs="1"&gt;
+                                                   &lt;xs:annotation&gt;
+                                                      &lt;xs:documentation&gt;
+                                                         This is a repository for information available from Device Manager that may not be available
+                                                         from the BIOS. Currently (2010/03/30), the PNPID and FriendlyName fields are defined. The PNPID 
+                                                         holds the device Manager PNPID for a particular device, which is not always identical to that 
+                                                         defined from the Vendor ID, Device ID, Subvendor ID, and Subsystem ID which are available in
+                                                         the BIOS. The Friendly Name is a text string associated with the device by the operating system
+                                                         and is therefore not available in the BIOS.
+                                                      &lt;/xs:documentation&gt;
+                                                   &lt;/xs:annotation&gt;
+                                                   &lt;xs:complexType&gt;
+                                                      &lt;xs:sequence&gt;
+                                                         &lt;xs:element name="PNPID" type="xs:string" minOccurs="0" maxOccurs="1"/&gt;
+                                                         &lt;xs:element name="FriendlyName" type="xs:string" minOccurs="0" maxOccurs="1"/&gt;
+                                                         &lt;xs:element name="PortName" type="xs:string" minOccurs="0" maxOccurs="1"/&gt;
+                                                      &lt;/xs:sequence&gt;
+                                                   &lt;/xs:complexType&gt;
+                                                &lt;/xs:element&gt;
+                                                &lt;xs:element name="WLANFeatures"
+                                                            minOccurs="0"
+                                                            maxOccurs="1"&gt;
+                                                   &lt;xs:complexType&gt;
+                                                      &lt;xs:sequence&gt;
+                                                         &lt;xs:element name="LANWANSwitching"
+                                                                     type="xs:boolean" /&gt;
+                                                      &lt;/xs:sequence&gt;
+                                                   &lt;/xs:complexType&gt;
+                                                &lt;/xs:element&gt;
+                                                &lt;xs:element name="WWANFeatures"
+                                                            minOccurs="0"
+                                                            maxOccurs="1"&gt;
+                                                   &lt;xs:complexType&gt;
+                                                      &lt;xs:sequence&gt;
+                                                         &lt;xs:element name="SIMCardAccess"
+                                                                     type="xs:boolean"/&gt;
+                                                         &lt;xs:element name="PreferredMobileOperatorSetting"
+                                                                     type="xs:unsignedByte"/&gt;
+                                                      &lt;/xs:sequence&gt;
+                                                   &lt;/xs:complexType&gt;
+                                                &lt;/xs:element&gt;
+                                             &lt;/xs:sequence&gt;
+                                          &lt;/xs:complexType&gt;
+                                       &lt;/xs:element&gt;
+                                    &lt;/xs:sequence&gt;
+                                 &lt;/xs:complexType&gt;
+                              &lt;/xs:element&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;
+                     &lt;/xs:element&gt;
+                     &lt;xs:element name="Result" minOccurs="0" maxOccurs="1" type="caslResult"&gt;
+                        &lt;!--&lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="Code"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:hexBinary" /&gt;
+                              &lt;xs:element name="Message"
+                                          minOccurs="0"
+                                          maxOccurs="1"
+                                           type="xs:string"/&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;--&gt;
+                     &lt;/xs:element&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+   &lt;!-- WirelessGlobalDeviceInfoOutput schema --&gt;
+   &lt;xs:element name="WirelessGlobalDeviceInfoOutput"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Output"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Data"
+                                 minOccurs="1"
+                                 maxOccurs="1"&gt;
+                        &lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="ComPortRequestingRemoval"
+                                          minOccurs="0"
+                                          maxOccurs="1"
+                                          type="xs:string"&gt;
+                                 &lt;xs:annotation&gt;
+                                    &lt;xs:documentation&gt;
+                                       This refers to a COM port that might be requesting removal from
+                                       the system. If this node is present, then the indicated COM port
+                                       tis requesting removal. Applications that hold open handles
+                                       on this COM port or on devices related to this COM port should
+                                       release those handles.
+                                    &lt;/xs:documentation&gt;
+                                 &lt;/xs:annotation&gt;
+                              &lt;/xs:element&gt;
+                              &lt;xs:element name="Capabilities"
+                                          minOccurs="1"
+                                          maxOccurs="1"&gt;
+                                 &lt;xs:complexType&gt;
+                                    &lt;xs:sequence&gt;
+                                       &lt;xs:element name="NumberOfPowerSources"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:unsignedByte"/&gt;
+                                       &lt;xs:element name="GlobalFeatures"&gt;
+                                          &lt;xs:complexType&gt;
+                                             &lt;xs:sequence&gt;
+                                                &lt;xs:element name="WWANAntenna"
+                                                            minOccurs="0"
+                                                            maxOccurs="1"
+                                                            type="xs:boolean"/&gt;
+                                                &lt;xs:element name="GPSIncluded"
+                                                            minOccurs="0"
+                                                             maxOccurs="1"
+                                                             type="xs:boolean"/&gt;
+                                                &lt;xs:element name="WoWWAN"
+                                                             minOccurs="0"
+                                                             maxOccurs="1"
+                                                             type="xs:boolean"/&gt;
+                                             &lt;/xs:sequence&gt;
+                                          &lt;/xs:complexType&gt;
+                                       &lt;/xs:element&gt;
+                                    &lt;/xs:sequence&gt;
+                                 &lt;/xs:complexType&gt;
+                              &lt;/xs:element&gt;
+                              &lt;xs:element name="Devices"&gt;
+                                 &lt;xs:complexType&gt;
+                                    &lt;xs:sequence&gt;
+                                       &lt;xs:element name="Device"
+                                                    minOccurs="0"
+                                                   maxOccurs="unbounded"&gt;
+                                          &lt;xs:complexType&gt;
+                                             &lt;xs:sequence&gt;
+                                                &lt;xs:element name="TechnologyType"
+                                                            minOccurs="1"
+                                                            maxOccurs="1"
+                                                            type="technologyTypeValue"/&gt;
+                                                &lt;xs:element name="BusType"
+                                                            minOccurs="1"
+                                                            maxOccurs="1"
+                                                            type="busType" /&gt;
+                                                &lt;xs:element name="VendorID"
+                                                            minOccurs="1"
+                                                            maxOccurs="1"
+                                                            type="hexBinary-4" /&gt;
+                                                &lt;xs:element name="DeviceID"
+                                                            minOccurs="1"
+                                                            maxOccurs="1"
+                                                            type="hexBinary-4"/&gt;
+                                                &lt;xs:element name="SubVendorID"
+                                                            minOccurs="1"
+                                                            maxOccurs="1"
+                                                            type="hexBinary-4"/&gt;
+                                                &lt;xs:element name="SubSystemID"
+                                                            minOccurs="1"
+                                                            maxOccurs="1"
+                                                            type="hexBinary-4"/&gt;
+                                                &lt;xs:element name="PowerSource"
+                                                            minOccurs="1"
+                                                            maxOccurs="1"
+                                                            type="xs:unsignedByte"/&gt;
+                                                &lt;xs:element name="CurrentState"
+                                                            minOccurs="1"
+                                                            maxOccurs="1"
+                                                            type="onOffType" /&gt;
+                                                &lt;xs:element name="LastRequestedState"
+                                                            minOccurs="1"
+                                                            maxOccurs="1" &gt;
+                                                   &lt;xs:complexType&gt;
+                                                      &lt;xs:sequence&gt;
+                                                         &lt;xs:element name="WMI"
+                                                                     minOccurs="1"
+                                                                     maxOccurs="1"&gt;
+                                                            &lt;xs:complexType&gt;
+                                                               &lt;xs:simpleContent&gt;
+                                                                  &lt;xs:extension base="onOffType"&gt;
+                                                                     &lt;xs:attribute name="Changed" type="xs:boolean" use="optional" /&gt;
+                                                                  &lt;/xs:extension&gt;
+                                                               &lt;/xs:simpleContent&gt;
+                                                            &lt;/xs:complexType&gt;
+                                                         &lt;/xs:element&gt;
+                                                         &lt;xs:element name="F10"
+                                                                     minOccurs="1"
+                                                                     maxOccurs="1"&gt;
+                                                            &lt;xs:complexType&gt;
+                                                               &lt;xs:simpleContent&gt;
+                                                                  &lt;xs:extension base="onOffType"&gt;
+                                                                     &lt;xs:attribute name="Changed" type="xs:boolean" use="optional" /&gt;
+                                                                  &lt;/xs:extension&gt;
+                                                               &lt;/xs:simpleContent&gt;
+                                                            &lt;/xs:complexType&gt;
+                                                         &lt;/xs:element&gt;
+                                                         &lt;xs:element name="HardwareButton"
+                                                                     minOccurs="1"
+                                                                     maxOccurs="1"&gt;
+                                                            &lt;xs:complexType&gt;
+                                                               &lt;xs:simpleContent&gt;
+                                                                  &lt;xs:extension base="onOffType"&gt;
+                                                                     &lt;xs:attribute name="Changed" type="xs:boolean" use="optional" /&gt;
+                                                                  &lt;/xs:extension&gt;
+                                                               &lt;/xs:simpleContent&gt;
+                                                            &lt;/xs:complexType&gt;
+                                                         &lt;/xs:element&gt;
+                                                         &lt;xs:element name="DeviceManager"
+                                                                     minOccurs="0"
+                                                                     maxOccurs="1" &gt;
+                                                            &lt;xs:complexType&gt;
+                                                               &lt;xs:sequence&gt;
+                                                                  &lt;xs:element name="Device"
+                                                                              minOccurs="1"
+                                                                              maxOccurs="unbounded"&gt;
+                                                                     &lt;xs:complexType&gt;
+                                                                        &lt;xs:annotation&gt;
+                                                                           &lt;xs:documentation&gt;
+                                                                              Most of the radios have multiple devices associated with
+                                                                              them in Device Manager. For instance, the WWAN device typically
+                                                                              has an NDIS device, a modem device, one or more COM port devices,
+                                                                              and a USB bus device associated with it. Currently, we are only
+                                                                              interested in the events fired by changing the state of the
+                                                                              USB bus device for WWAN, but it is conveivable that this
+                                                                              could change in the future. Thus, we need an extensible XML
+                                                                              definition to plan for future possibilities.
+
+                                                                              The PNPID is always a CDATA string. It will always contain
+                                                                              the specific PNPID of the device in question, which will not
+                                                                              always be identical to the PNPID provided by the BIOS. It must
+                                                                              be a CDATA string -- or else be encoded in a format such as
+                                                                              base-64 encoding -- because the PNPID typically contains
+                                                                              characters like the ampersand ('&amp;amp;') character, that
+                                                                              are reserved characters for XML.
+                                                                           &lt;/xs:documentation&gt;
+                                                                        &lt;/xs:annotation&gt;
+                                                                        &lt;xs:all&gt;
+                                                                           &lt;xs:element name="Type" type="onDeviceManagerDeviceType" /&gt;
+                                                                           &lt;xs:element name="PNPID" type="xs:string" /&gt;
+                                                                           &lt;xs:element name="State" type="onOffUnknownType" /&gt;
+                                                                           &lt;xs:element name="PortName" type="xs:string" minOccurs="0" maxOccurs="1"&gt;
+                                                                              &lt;xs:annotation&gt;
+                                                                                 &lt;xs:documentation&gt;
+                                                                                    20010/04/02: This is a new node that MUST temporarily be optional.
+                                                                                    It may eventually be required, but the code is currently provided only
+                                                                                    for GPS.
+                                                                                 &lt;/xs:documentation&gt;
+                                                                              &lt;/xs:annotation&gt;
+                                                                           &lt;/xs:element&gt;
+                                                                        &lt;/xs:all&gt;
+                                                                        &lt;xs:attribute name="Changed" type="xs:boolean" use="optional" /&gt;
+                                                                     &lt;/xs:complexType&gt;
+                                                                  &lt;/xs:element&gt;
+                                                               &lt;/xs:sequence&gt;
+                                                            &lt;/xs:complexType&gt;
+                                                         &lt;/xs:element&gt;
+                                                         &lt;xs:element minOccurs="0" maxOccurs="1" name="RadioState"&gt;
+                                                            &lt;xs:annotation&gt;
+                                                               &lt;xs:documentation&gt;
+                                                                  The RadioState field is the state that corresponds with what
+                                                                  has been called 'Native state' or the 'Mobility Center state.'
+                                                                  However, these terms are not precise terms. For instance, Mobility
+                                                                  Center is an application for which an arbitrary wireless radio
+                                                                  configuration applet might be written. That applet might make
+                                                                  API calls for the specific radio to turn the radio on and off (as is currently
+                                                                  the case for the WLAN applet) or it might do something else. Thus,
+                                                                  calling something a 'Mobility Center' state is ambiguous. 'Native
+                                                                  state' is a better term. However, the state being tracked in this node
+                                                                  is specifically the state of the radio as turned on or off using
+                                                                  the particular radio's API. Thus, while 'Native state' is a good term,
+                                                                  Radio State is a better term because the state being tracked is
+                                                                  specifically the state of the radio when power is provided by the BIOS
+                                                                  and the OS device is enabled.
+                                                               &lt;/xs:documentation&gt;
+                                                            &lt;/xs:annotation&gt;
+                                                            &lt;xs:complexType&gt;
+                                                               &lt;xs:simpleContent&gt;
+                                                                  &lt;xs:extension base="onOffUnknownType"&gt;
+                                                                     &lt;xs:attribute name="Changed" type="xs:boolean" use="required" /&gt;
+                                                                  &lt;/xs:extension&gt;
+                                                               &lt;/xs:simpleContent&gt;
+                                                            &lt;/xs:complexType&gt;
+                                                         &lt;/xs:element&gt;
+                                                      &lt;/xs:sequence&gt;
+                                                   &lt;/xs:complexType&gt;
+                                                &lt;/xs:element&gt;
+
+                                                &lt;xs:element name="WLANFeatures"
+                                                            minOccurs="0"
+                                                            maxOccurs="1"&gt;
+                                                   &lt;xs:complexType&gt;
+                                                      &lt;xs:sequence&gt;
+                                                         &lt;xs:element name="LANWANSwitching"
+                                                                     type="xs:boolean" /&gt;
+                                                      &lt;/xs:sequence&gt;
+                                                   &lt;/xs:complexType&gt;
+                                                &lt;/xs:element&gt;
+                                                &lt;xs:element name="WWANFeatures"
+                                                            minOccurs="0"
+                                                            maxOccurs="1"&gt;
+                                                   &lt;xs:complexType&gt;
+                                                      &lt;xs:sequence&gt;
+                                                         &lt;xs:element name="SIMCardAccess"
+                                                                     type="xs:boolean"/&gt;
+                                                         &lt;xs:element name="PreferredMobileOperatorSetting"
+                                                                     type="xs:unsignedByte"/&gt;
+                                                      &lt;/xs:sequence&gt;
+                                                   &lt;/xs:complexType&gt;
+                                                &lt;/xs:element&gt;
+                                                &lt;xs:element name="FriendlyName"
+                                                            minOccurs="0"
+                                                            maxOccurs="1"
+                                                            type="xs:string"&gt;
+                                                   &lt;xs:annotation&gt;
+                                                      &lt;xs:documentation&gt;
+                                                         2010/06/01: This node MUST be optional because the Friendly Name
+                                                         comes from Device Manager. If a device driver is NOT installed,
+                                                         then the Friendly Name is unavailable and will not be present.
+                                                         20010/03/11: This is a new node that MUST temporarily be optional.
+                                                         It will eventually be required, but the code is not yet
+                                                         in place to provide this data, so the node itself is not
+                                                         yet required.
+                                                         2010/03/12: The node is now provided always. It is required.
+                                                         If there is no friendly name available, the node must still
+                                                         be present but with an empty string value. Since the FriendlyName
+                                                         could conceivably include invalid XML characters, e.g. AT&amp;amp;T
+                                                         this is a CDATA section.
+                                                      &lt;/xs:documentation&gt;
+                                                   &lt;/xs:annotation&gt;
+                                                &lt;/xs:element&gt;
+                                             &lt;/xs:sequence&gt;
+                                          &lt;/xs:complexType&gt;
+                                       &lt;/xs:element&gt;
+                                    &lt;/xs:sequence&gt;
+                                 &lt;/xs:complexType&gt;
+                              &lt;/xs:element&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;
+                     &lt;/xs:element&gt;
+                     &lt;xs:element name="Result" minOccurs="0" maxOccurs="1" type="caslResult"&gt;
+                        &lt;!--&lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="Code"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:hexBinary" /&gt;
+                              &lt;xs:element name="Message"
+                                          minOccurs="0"
+                                          maxOccurs="1"
+                                           type="xs:string"/&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;--&gt;
+                     &lt;/xs:element&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+            &lt;xs:element name="NotificationTime" minOccurs="0" maxOccurs="1"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="DateTime" type="xs:string" minOccurs="1" maxOccurs="1" /&gt;
+                     &lt;xs:element name="SYSTEMTIME" type="xs:string" minOccurs="1" maxOccurs="1" /&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+
+   &lt;!-- WirelessGlobalDeviceInfoOutput2 schema --&gt;
+   &lt;xs:element name="WirelessGlobalDeviceInfoOutput2"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Output"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Data"
+                                 minOccurs="1"
+                                 maxOccurs="1"&gt;
+                        &lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="ComPortRequestingRemoval"
+                                          minOccurs="0"
+                                          maxOccurs="1"
+                                          type="xs:string"&gt;
+                                 &lt;xs:annotation&gt;
+                                    &lt;xs:documentation&gt;
+                                       This refers to a COM port that might be requesting removal from
+                                       the system. If this node is present, then the indicated COM port
+                                       tis requesting removal. Applications that hold open handles
+                                       on this COM port or on devices related to this COM port should
+                                       release those handles.
+                                    &lt;/xs:documentation&gt;
+                                 &lt;/xs:annotation&gt;
+                              &lt;/xs:element&gt;
+                              &lt;xs:element name="Capabilities"
+                                 minOccurs="1"
+                                 maxOccurs="1"&gt;
+                                 &lt;xs:complexType&gt;
+                                    &lt;xs:sequence&gt;
+                                       &lt;xs:element name="NumberOfPowerSources"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:unsignedByte"/&gt;
+                                       &lt;xs:element name="GlobalFeatures"&gt;
+                                          &lt;xs:complexType&gt;
+                                             &lt;xs:sequence&gt;
+                                                &lt;xs:element name="WWANAntenna"
+                                                            minOccurs="0"
+                                                            maxOccurs="1"
+                                                            type="xs:boolean"/&gt;
+                                                &lt;xs:element name="GPSIncluded"
+                                                            minOccurs="0"
+                                                            maxOccurs="1"
+                                                            type="xs:boolean"/&gt;
+                                                &lt;xs:element name="WoWWAN"
+                                                             minOccurs="0"
+                                                             maxOccurs="1"
+                                                             type="xs:boolean"/&gt;
+                                             &lt;/xs:sequence&gt;
+                                          &lt;/xs:complexType&gt;
+                                       &lt;/xs:element&gt;
+                                    &lt;/xs:sequence&gt;
+                                 &lt;/xs:complexType&gt;
+                              &lt;/xs:element&gt;
+                              &lt;xs:element name="Devices"&gt;
+                                 &lt;xs:complexType&gt;
+                                    &lt;xs:sequence&gt;
+                                       &lt;xs:element minOccurs="0" maxOccurs="unbounded" name="Device"&gt;
+                                          &lt;xs:complexType&gt;
+                                             &lt;xs:sequence&gt;
+                                                &lt;xs:element name="TechnologyType"
+                                                            minOccurs="1"
+                                                            maxOccurs="1"
+                                                            type="technologyTypeValue"/&gt;
+                                                &lt;xs:element name="BusType"
+                                                            minOccurs="1"
+                                                            maxOccurs="1"
+                                                            type="busType" /&gt;
+                                                &lt;xs:element name="VendorID"
+                                                            minOccurs="1"
+                                                            maxOccurs="1"
+                                                            type="hexBinary-4" /&gt;
+                                                &lt;xs:element name="DeviceID"
+                                                            minOccurs="1"
+                                                            maxOccurs="1"
+                                                            type="hexBinary-4"/&gt;
+                                                &lt;xs:element name="SubVendorID"
+                                                            minOccurs="1"
+                                                            maxOccurs="1"
+                                                            type="hexBinary-4"/&gt;
+                                                &lt;xs:element name="SubSystemID"
+                                                            minOccurs="1"
+                                                            maxOccurs="1"
+                                                            type="hexBinary-4"/&gt;
+                                                &lt;xs:element name="PowerSource"
+                                                            minOccurs="1"
+                                                            maxOccurs="1"
+                                                            type="xs:unsignedByte"/&gt;
+                                                &lt;xs:element name="CurrentState"
+                                                            minOccurs="1"
+                                                            maxOccurs="1"
+                                                            type="onOffType" /&gt;
+                                                &lt;xs:element name="LastRequestedState"
+                                                            minOccurs="1"
+                                                            maxOccurs="1" &gt;
+                                                   &lt;xs:complexType&gt;
+                                                      &lt;xs:sequence&gt;
+                                                         &lt;xs:element name="WMI"
+                                                                     minOccurs="1"
+                                                                     maxOccurs="1"
+                                                                     type="onOffType" /&gt;
+                                                         &lt;xs:element name="F10"
+                                                                     minOccurs="1"
+                                                                     maxOccurs="1"
+                                                                     type="onOffType" /&gt;
+                                                         &lt;xs:element name="HardwareButton"
+                                                                     minOccurs="1"
+                                                                     maxOccurs="1"
+                                                                     type="onOffType" /&gt;
+                                                         &lt;xs:element minOccurs="0" maxOccurs="1" name="RadioState"&gt;
+                                                            &lt;xs:annotation&gt;
+                                                               &lt;xs:documentation&gt;
+                                                                  The RadioState field is the state that corresponds with what
+                                                                  has been called 'Native state' or the 'Mobility Center state.'
+                                                                  However, these terms are not precise terms. For instance, Mobility
+                                                                  Center is an application for which an arbitrary wireless radio
+                                                                  configuration applet might be written. That applet might make
+                                                                  API calls for the specific radio to turn the radio on and off (as is currently
+                                                                  the case for the WLAN applet) or it might do something else. Thus,
+                                                                  calling something a 'Mobility Center' state is ambiguous. 'Native
+                                                                  state' is a better term. However, the state being tracked in this node
+                                                                  is specifically the state of the radio as turned on or off using
+                                                                  the particular radio's API. Thus, while 'Native state' is a good term,
+                                                                  Radio State is a better term because the state being tracked is
+                                                                  specifically the state of the radio when power is provided by the BIOS
+                                                                  and the OS device is enabled.
+                                                               &lt;/xs:documentation&gt;
+                                                            &lt;/xs:annotation&gt;
+                                                         &lt;/xs:element&gt;
+                                                      &lt;/xs:sequence&gt;
+                                                   &lt;/xs:complexType&gt;
+                                                &lt;/xs:element&gt;
+                                                &lt;xs:element name="WLANFeatures"
+                                                            minOccurs="0"
+                                                            maxOccurs="1"&gt;
+                                                   &lt;xs:complexType&gt;
+                                                      &lt;xs:sequence&gt;
+                                                         &lt;xs:element name="LANWANSwitching"
+                                                                     type="xs:boolean" /&gt;
+                                                      &lt;/xs:sequence&gt;
+                                                   &lt;/xs:complexType&gt;
+                                                &lt;/xs:element&gt;
+                                                &lt;xs:element name="WWANFeatures"
+                                                            minOccurs="0"
+                                                            maxOccurs="1"&gt;
+                                                   &lt;xs:complexType&gt;
+                                                      &lt;xs:sequence&gt;
+                                                         &lt;xs:element name="SIMCardAccess"
+                                                                     type="xs:boolean"/&gt;
+                                                         &lt;xs:element name="PreferredMobileOperatorSetting"
+                                                                     type="xs:unsignedByte"/&gt;
+                                                      &lt;/xs:sequence&gt;
+                                                   &lt;/xs:complexType&gt;
+                                                &lt;/xs:element&gt;
+                                                &lt;xs:element name="DeviceManager"&gt;
+                                                   &lt;xs:complexType&gt;
+                                                      &lt;xs:sequence&gt;
+                                                         &lt;xs:element maxOccurs="unbounded" name="Device"&gt;
+                                                            &lt;xs:complexType&gt;
+                                                               &lt;xs:all&gt;
+                                                                  &lt;xs:element name="TechnologyType"
+                                                                              minOccurs="1"
+                                                                              maxOccurs="1"
+                                                                              type="technologyTypeValue"/&gt;
+                                                                  &lt;xs:element name="DeviceClass"
+                                                                              minOccurs="1"
+                                                                              maxOccurs="1"
+                                                                              type="xs:string" /&gt;
+                                                                  &lt;xs:element name="Type" 
+                                                                              minOccurs="1"
+                                                                              maxOccurs="1"
+                                                                              type="onDeviceManagerDeviceType" /&gt;
+                                                                  &lt;xs:element name="PNPID" 
+                                                                              minOccurs="1"
+                                                                              maxOccurs="1"
+                                                                              type="xs:string" /&gt;
+                                                                  &lt;xs:element name="State" 
+                                                                              minOccurs="1"
+                                                                              maxOccurs="1"
+                                                                              type="onOffUnknownType" /&gt;
+                                                                  &lt;xs:element name="FriendlyName" 
+                                                                              type="xs:string" /&gt;
+                                                                  &lt;xs:element name="PortName"
+                                                                              minOccurs="1"
+                                                                              maxOccurs="1"
+                                                                              type="xs:string"&gt;
+                                                                     &lt;xs:annotation&gt;
+                                                                        &lt;xs:documentation&gt;
+                                                                           20010/04/02: This is a new node that MUST temporarily be optional.
+                                                                           It may eventually be required, but the code is currently provided only
+                                                                           for GPS.
+                                                                        &lt;/xs:documentation&gt;
+                                                                     &lt;/xs:annotation&gt;
+                                                                  &lt;/xs:element&gt;
+                                                                  &lt;xs:element name="Parent" 
+                                                                              minOccurs="1"
+                                                                              maxOccurs="1"
+                                                                              type="xs:boolean" /&gt;
+                                                                  &lt;xs:element name="DeviceClassGUID"
+                                                                              minOccurs="0"
+                                                                              maxOccurs="1"
+                                                                              type="xs:string" /&gt;
+                                                                  &lt;xs:element name="DriverNode"
+                                                                              minOccurs="0"
+                                                                              maxOccurs="1"
+                                                                              type="xs:string" /&gt;
+                                                                  &lt;xs:element name="DeviceInstancePath"
+                                                                              minOccurs="0"
+                                                                              maxOccurs="1"
+                                                                              type="xs:string" /&gt;
+                                                               &lt;/xs:all&gt;
+                                                            &lt;/xs:complexType&gt;
+                                                         &lt;/xs:element&gt;
+                                                      &lt;/xs:sequence&gt;
+                                                   &lt;/xs:complexType&gt;
+                                                &lt;/xs:element&gt;
+                                             &lt;/xs:sequence&gt;
+                                          &lt;/xs:complexType&gt;
+                                       &lt;/xs:element&gt;
+                                    &lt;/xs:sequence&gt;
+                                 &lt;/xs:complexType&gt;
+                              &lt;/xs:element&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;
+                     &lt;/xs:element&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+            &lt;xs:element name="NotificationTime" minOccurs="0" maxOccurs="1"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="DateTime" type="xs:string" minOccurs="1" maxOccurs="1" /&gt;
+                     &lt;xs:element name="SYSTEMTIME" type="xs:string" minOccurs="1" maxOccurs="1" /&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+   
+   &lt;!--SendWindowNotificationInput--&gt;
+   &lt;xs:element name="SendWindowNotificationInput"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Input"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Data"
+                                 minOccurs="1"
+                                 maxOccurs="1"&gt;
+                        &lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="Title"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:string" /&gt;
+                              &lt;xs:element name="Text"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:string" /&gt;
+                              &lt;xs:element name="Icon"
+                                          minOccurs="0"
+                                          maxOccurs="1"
+                                          type="xs:string" /&gt;
+                              &lt;xs:element name="Path"
+                                          minOccurs="0"
+                                          maxOccurs="1"
+                                          type="xs:string" /&gt;
+                              &lt;xs:element name="Parameters"
+                                          minOccurs="0"
+                                          maxOccurs="1"
+                                          type="xs:string" /&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;
+                     &lt;/xs:element&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+   &lt;!-- GetPMCCapabilitiesOutput --&gt;
+   &lt;xs:element name="GetPMCCapabilitiesOutput"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Output"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Data"
+                                 minOccurs="1"
+                                 maxOccurs="1"&gt;
+                        &lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="MaximumACValue"
+                                           minOccurs="1"
+                                           maxOccurs="1"
+                                            type="xs:unsignedLong"/&gt;
+                              &lt;xs:element name="F10SettingAvailable"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:boolean" /&gt;
+                              &lt;xs:element name="CalibrationSupport"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:boolean" /&gt;
+                              &lt;xs:element name="S0DataCollectionSupport"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:boolean" /&gt;
+                              &lt;xs:element name="SxDataCollectionSupport"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:boolean" /&gt;
+                              &lt;xs:element name="ACDataCollectionSupport"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:boolean" /&gt;
+                              &lt;xs:element name="BatteryDataCollectionSupport"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:boolean" /&gt;
+                              &lt;xs:element name="AccumulatedDataCollectionSupport"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:boolean" /&gt;
+                              &lt;xs:element name="InstantaneousDataCollectionSupport"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:boolean" /&gt;
+                              &lt;xs:element name="S0Record"&gt;
+                                 &lt;xs:complexType&gt;
+                                    &lt;xs:sequence&gt;
+                                       &lt;xs:element name="RateChangeSupport"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:boolean" /&gt;
+                                       &lt;xs:element name="BatteryChargeSupport"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:boolean" /&gt;
+                                       &lt;xs:element name="ACDCTransitionSupport"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:boolean" /&gt;
+                                       &lt;xs:element name="TravelAdapterSupport"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:boolean" /&gt;
+                                       &lt;xs:element name="ReadSupport"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:boolean" /&gt;
+                                    &lt;/xs:sequence&gt;
+                                 &lt;/xs:complexType&gt;
+                              &lt;/xs:element&gt;
+                              &lt;xs:element name="SxRecord"&gt;
+                                 &lt;xs:complexType&gt;
+                                    &lt;xs:sequence&gt;
+                                       &lt;xs:element name="RateChangeSupport"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:boolean" /&gt;
+                                       &lt;xs:element name="BatteryChargeSupport"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:boolean" /&gt;
+                                       &lt;xs:element name="ACDCTransitionSupport"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:boolean" /&gt;
+                                       &lt;xs:element name="TravelAdapterSupport"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:boolean" /&gt;
+                                       &lt;xs:element name="LANWakeOnLANSupport"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:boolean" /&gt;
+                                       &lt;xs:element name="WLANWakeOnLANSupport"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:boolean" /&gt;
+                                       &lt;xs:element name="WWANWakeOnLANSupport"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:boolean" /&gt;
+                                       &lt;xs:element name="AMTMESupport"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:boolean" /&gt;
+                                    &lt;/xs:sequence&gt;
+                                 &lt;/xs:complexType&gt;
+                              &lt;/xs:element&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;
+                     &lt;/xs:element&gt;
+                     &lt;xs:element name="Result" minOccurs="0" maxOccurs="1" type="caslResult"&gt;
+                     &lt;/xs:element&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+   &lt;!--GetPMCCapabilities2Output--&gt;
+   &lt;xs:element name="GetPMCCapabilities2Output"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Output"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Data" minOccurs="1" maxOccurs="1"&gt;
+                        &lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="MaximumACValue" type="xs:unsignedLong" minOccurs="1" maxOccurs="1"/&gt;
+                              &lt;xs:element name="F10SettingAvailable" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                              &lt;xs:element name="CalibrationSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                              &lt;xs:element name="S0ACDataCollectionSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                              &lt;xs:element name="S3ACDataCollectionSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                              &lt;xs:element name="S4S5ACDataCollectionSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                              &lt;xs:element name="S0DCDataCollectionSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                              &lt;xs:element name="S3DCDataCollectionSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                              &lt;xs:element name="S4S5DCDataCollectionSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                              &lt;xs:element name="AccumulatedDataCollectionSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                              &lt;xs:element name="InstantaneousDataCollectionSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                              &lt;xs:element name="S0ACCapabilitiesRecord" minOccurs="1" maxOccurs="1"&gt;
+                                 &lt;xs:complexType&gt;
+                                    &lt;xs:sequence&gt;
+                                       &lt;xs:element name="RateChangeSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="BatteryChargeSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="ACDCTransitionSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="TravelAdapterSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="ReadSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                    &lt;/xs:sequence&gt;
+                                 &lt;/xs:complexType&gt;
+                              &lt;/xs:element&gt;
+                              &lt;xs:element name="S3ACCapabilitiesRecord" minOccurs="1" maxOccurs="1"&gt;
+                                 &lt;xs:complexType&gt;
+                                    &lt;xs:sequence&gt;
+                                       &lt;xs:element name="RateChangeSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="BatteryChargeSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="ACDCTransitionSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="TravelAdapterSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="WiredNICWakeOnLANSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="WLANWakeOnLANSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="WWANWakeOnLANSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="AMTMESupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                    &lt;/xs:sequence&gt;
+                                 &lt;/xs:complexType&gt;
+                              &lt;/xs:element&gt;
+                              &lt;xs:element name="S4S5ACCapabilitiesRecord" minOccurs="1" maxOccurs="1"&gt;
+                                 &lt;xs:complexType&gt;
+                                    &lt;xs:sequence&gt;
+                                       &lt;xs:element name="RateChangeSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="BatteryChargeSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="ACDCTransitionSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="TravelAdapterSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="WiredNICWakeOnLANSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="WLANWakeOnLANSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="WWANWakeOnLANSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="AMTMESupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                    &lt;/xs:sequence&gt;
+                                 &lt;/xs:complexType&gt;
+                              &lt;/xs:element&gt;
+                              &lt;xs:element name="S0DCCapabilitiesRecord" minOccurs="1" maxOccurs="1"&gt;
+                                 &lt;xs:complexType&gt;
+                                    &lt;xs:sequence&gt;
+                                       &lt;xs:element name="RateChangeSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="ACDCTransitionSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="ReadSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                    &lt;/xs:sequence&gt;
+                                 &lt;/xs:complexType&gt;
+                              &lt;/xs:element&gt;
+                              &lt;xs:element name="S3DCCapabilitiesRecord" minOccurs="1" maxOccurs="1"&gt;
+                                 &lt;xs:complexType&gt;
+                                    &lt;xs:sequence&gt;
+                                       &lt;xs:element name="RateChangeSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="ACDCTransitionSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="WiredNICWakeOnLANSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="WLANWakeOnLANSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="WWANWakeOnLANSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="AMTMESupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                    &lt;/xs:sequence&gt;
+                                 &lt;/xs:complexType&gt;
+                              &lt;/xs:element&gt;
+                              &lt;xs:element name="S4S5DCCapabilitiesRecord" minOccurs="1" maxOccurs="1"&gt;
+                                 &lt;xs:complexType&gt;
+                                    &lt;xs:sequence&gt;
+                                       &lt;xs:element name="RateChangeSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="ACDCTransitionSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="WiredNICWakeOnLANSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="WLANWakeOnLANSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="WWANWakeOnLANSupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                       &lt;xs:element name="AMTMESupport" type="xs:boolean" minOccurs="1" maxOccurs="1"/&gt;
+                                    &lt;/xs:sequence&gt;
+                                 &lt;/xs:complexType&gt;
+                              &lt;/xs:element&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;
+                     &lt;/xs:element&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;   
+   &lt;!--GetPMCData2Output--&gt;
+   &lt;xs:element name="GetPMCData2Output"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Output" minOccurs="1" maxOccurs="1"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Data" minOccurs="1" maxOccurs="1"&gt;
+                        &lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="DateTime" type="xs:dateTime" minOccurs="1" maxOccurs="1" /&gt;
+                              &lt;xs:element name="F10BIOSSettingStateEnabled" type="xs:boolean" minOccurs="1" maxOccurs="1" /&gt;
+                              &lt;xs:element name="CalibrationStatus" type="xs:boolean" minOccurs="1" maxOccurs="1" /&gt;
+                              &lt;xs:element name="S0ACPowerRecord" minOccurs="1" maxOccurs="1"&gt;
+                                 &lt;xs:complexType&gt;
+                                    &lt;xs:sequence&gt;
+                                       &lt;xs:element name="SampleRate" type="xs:unsignedByte" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="RateChangeOccurred" type="xs:boolean" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="BatteryChargeOccurred" type="xs:boolean" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="ACDCTransitionOccurred" type="xs:boolean" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="TravelAdapterAttached" type="xs:boolean" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="S0ReadStatusCollected" type="xs:boolean" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="PowerMeasurementType" type="xs:unsignedByte" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="PowerMeasurementPrecision" type="xs:unsignedByte" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="PowerData" type="xs:int" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="SamplesCollected" type="xs:int" minOccurs="1" maxOccurs="1" /&gt;
+                                    &lt;/xs:sequence&gt;
+                                 &lt;/xs:complexType&gt;
+                              &lt;/xs:element&gt;
+                              &lt;xs:element name="S3ACPowerRecord" minOccurs="1" maxOccurs="1"&gt;
+                                 &lt;xs:complexType&gt;
+                                    &lt;xs:sequence&gt;
+                                       &lt;xs:element name="SampleRate" type="xs:unsignedByte" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="RateChangeOccurred" type="xs:boolean" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="BatteryChargeOccurred" type="xs:boolean" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="ACDCTransitionOccurred" type="xs:boolean" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="TravelAdapterAttached" type="xs:boolean" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="WiredNICWakeOnLANStatusEnabled" type="xs:boolean" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="WLANWakeOnLANStatusEnabled" type="xs:boolean" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="WWANWakeOnLANStatusEnabled" type="xs:boolean" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="AMTMEStatusEnabled" type="xs:boolean" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="PowerMeasurementType" type="xs:unsignedByte" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="PowerMeasurementPrecision" type="xs:unsignedByte" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="PowerData" type="xs:int" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="SamplesCollected" type="xs:int" minOccurs="1" maxOccurs="1" /&gt;
+                                    &lt;/xs:sequence&gt;
+                                 &lt;/xs:complexType&gt;
+                              &lt;/xs:element&gt;
+                              &lt;xs:element name="S4S5ACPowerRecord" minOccurs="1" maxOccurs="1"&gt;
+                                 &lt;xs:complexType&gt;
+                                    &lt;xs:sequence&gt;
+                                       &lt;xs:element name="SampleRate" type="xs:unsignedByte" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="RateChangeOccurred" type="xs:boolean" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="BatteryChargeOccurred" type="xs:boolean" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="ACDCTransitionOccurred" type="xs:boolean" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="TravelAdapterAttached" type="xs:boolean" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="WiredNICWakeOnLANStatusEnabled" type="xs:boolean" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="WLANWakeOnLANStatusEnabled" type="xs:boolean" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="WWANWakeOnLANStatusEnabled" type="xs:boolean" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="AMTMEStatusEnabled" type="xs:boolean" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="PowerMeasurementType" type="xs:unsignedByte" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="PowerMeasurementPrecision" type="xs:unsignedByte" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="PowerData" type="xs:int" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="SamplesCollected" type="xs:int" minOccurs="1" maxOccurs="1" /&gt;
+                                    &lt;/xs:sequence&gt;
+                                 &lt;/xs:complexType&gt;
+                              &lt;/xs:element&gt;
+                              &lt;xs:element name="S0DCPowerRecord" minOccurs="1" maxOccurs="1"&gt;
+                                 &lt;xs:complexType&gt;
+                                    &lt;xs:sequence&gt;
+                                       &lt;xs:element name="SampleRate" type="xs:unsignedByte" minOccurs="0" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="RateChangeOccurred" type="xs:boolean" minOccurs="0" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="ACDCTransitionOccurred" type="xs:boolean" minOccurs="0" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="PowerMeasurementType" type="xs:unsignedByte" minOccurs="0" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="PowerMeasurementPrecision" minOccurs="0" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="PowerData" type="xs:int" minOccurs="0" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="SamplesCollected" type="xs:int" minOccurs="0" maxOccurs="1" /&gt;
+                                    &lt;/xs:sequence&gt;
+                                 &lt;/xs:complexType&gt;
+                              &lt;/xs:element&gt;
+                              &lt;xs:element name="S3DCPowerRecord" minOccurs="1" maxOccurs="1"&gt;
+                                 &lt;xs:complexType&gt;
+                                    &lt;xs:sequence&gt;
+                                       &lt;xs:element name="SampleRate" type="xs:unsignedByte" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="RateChangeOccurred" type="xs:boolean" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="ACDCTransitionOccurred" type="xs:boolean" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="PowerMeasurementType" type="xs:unsignedByte" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="PowerMeasurementPrecision" type="xs:unsignedByte" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="PowerData" type="xs:int" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="SamplesCollected" type="xs:int" minOccurs="1" maxOccurs="1" /&gt;
+                                    &lt;/xs:sequence&gt;
+                                 &lt;/xs:complexType&gt;
+                              &lt;/xs:element&gt;
+                              &lt;xs:element name="S4S5DCPowerRecord" minOccurs="1" maxOccurs="1"&gt;
+                                 &lt;xs:complexType&gt;
+                                    &lt;xs:sequence&gt;
+                                       &lt;xs:element name="SampleRate" type="xs:unsignedByte" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="RateChangeOccurred" type="xs:boolean" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="ACDCTransitionOccurred" type="xs:boolean" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="PowerMeasurementType" type="xs:unsignedByte" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="PowerMeasurementPrecision" type="xs:unsignedByte" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="PowerData" type="xs:int" minOccurs="1" maxOccurs="1" /&gt;
+                                       &lt;xs:element name="SamplesCollected" type="xs:int" minOccurs="1" maxOccurs="1" /&gt;
+                                    &lt;/xs:sequence&gt;
+                                 &lt;/xs:complexType&gt;
+                              &lt;/xs:element&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;
+                     &lt;/xs:element&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+   &lt;!--GetPMCDataOutput--&gt;
+   &lt;xs:element name="GetPMCDataOutput"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Output"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Data"
+                                 minOccurs="1"
+                                 maxOccurs="1"&gt;
+                        &lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="DateTime"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                            type="xs:dateTime"/&gt;
+                              &lt;xs:element name="F10BIOSSettingStateEnabled"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:boolean" /&gt;
+                              &lt;xs:element name="CalibrationStatus"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:boolean" /&gt;
+                              &lt;xs:element name="S0Record"&gt;
+                                 &lt;xs:complexType&gt;
+                                    &lt;xs:sequence&gt;
+                                       &lt;xs:element name="SampleRate"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:unsignedByte" /&gt;
+                                       &lt;xs:element name="SampleRateChanged"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:boolean" /&gt;
+                                       &lt;xs:element name="BatteryChargeOccured"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:boolean" /&gt;
+                                       &lt;xs:element name="ACDCTransitionOccured"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:boolean" /&gt;
+                                       &lt;xs:element name="TravelAdapterAttached"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:boolean" /&gt;
+                                       &lt;xs:element name="ReadStatus"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:boolean" /&gt;
+                                       &lt;xs:element name="PowerMeasurementType"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:unsignedByte" /&gt;
+                                       &lt;xs:element name="PowerMeasurementPrecision"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:unsignedByte" /&gt;
+                                       &lt;xs:element name="PowerData"
+                                                    minOccurs="1"
+                                                    maxOccurs="1"
+                                                    type="xs:int"/&gt;
+                                       &lt;xs:element name="SamplesCollected"
+                                                    minOccurs="1"
+                                                    maxOccurs="1"
+                                                    type="xs:int"/&gt;
+                                    &lt;/xs:sequence&gt;
+                                 &lt;/xs:complexType&gt;
+                              &lt;/xs:element&gt;
+                              &lt;xs:element name="SxRecord"&gt;
+                                 &lt;xs:complexType&gt;
+                                    &lt;xs:sequence&gt;
+                                       &lt;xs:element name="SampleRate"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:unsignedByte" /&gt;
+                                       &lt;xs:element name="SampleRateChanged"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:boolean" /&gt;
+                                       &lt;xs:element name="BatteryChargeOccured"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:boolean" /&gt;
+                                       &lt;xs:element name="ACDCTransitionOccured"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:boolean" /&gt;
+                                       &lt;xs:element name="TravelAdapterAttached"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:boolean" /&gt;
+                                       &lt;xs:element name="WiredNICWakeOnLANStatusEnabled"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:boolean" /&gt;
+                                       &lt;xs:element name="WLANWakeOnLANStatusEnabled"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:boolean" /&gt;
+                                       &lt;xs:element name="WWANWakeOnLANStatusEnabled"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:boolean" /&gt;
+                                       &lt;xs:element name="ATMMEStatus"
+                                                minOccurs="1"
+                                                maxOccurs="1"
+                                                type="xs:boolean" /&gt;
+                                       &lt;xs:element name="PowerMeasurementType"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:unsignedByte" /&gt;
+                                       &lt;xs:element name="PowerMeasurementPrecision"
+                                                    minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:unsignedByte" /&gt;
+                                       &lt;xs:element name="PowerData"
+                                                    minOccurs="1"
+                                                    maxOccurs="1"
+                                                    type="xs:int"/&gt;
+                                       &lt;xs:element name="SamplesCollected"
+                                                    minOccurs="1"
+                                                    maxOccurs="1"
+                                                    type="xs:int"/&gt;
+                                    &lt;/xs:sequence&gt;
+                                 &lt;/xs:complexType&gt;
+                              &lt;/xs:element&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;
+                     &lt;/xs:element&gt;
+                     &lt;xs:element name="Result" minOccurs="0" maxOccurs="1" type="caslResult"&gt;
+                     &lt;/xs:element&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+   &lt;!--SetPMCConfigurationInput--&gt;
+   &lt;xs:element name="SetPMCConfigurationInput"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Input"
+                        minOccurs="1"
+                        maxOccurs="1"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Data"
+                                 minOccurs="1"
+                                 maxOccurs="1"&gt;
+                        &lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="Configuration"&gt;
+                                 &lt;xs:complexType&gt;
+                                    &lt;xs:sequence&gt;
+                                       &lt;xs:element name="SampleRate"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type="xs:unsignedByte" /&gt;
+                                    &lt;/xs:sequence&gt;
+                                 &lt;/xs:complexType&gt;
+                              &lt;/xs:element&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;
+                     &lt;/xs:element&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+   &lt;!--GetPMCCalibrationDataOutput--&gt;
+   &lt;xs:element name="GetPMCCalibrationDataOutput"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Output"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Data"
+                                 minOccurs="1"
+                                 maxOccurs="1"&gt;
+                        &lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="F10BIOSStateEnabled"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:boolean"&gt;
+                              &lt;/xs:element&gt;
+                              &lt;xs:element name="CalibrationStatus"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:boolean"&gt;
+                              &lt;/xs:element&gt;
+
+                              &lt;xs:element name="Gain"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:double"&gt;
+                              &lt;/xs:element&gt;
+                              &lt;xs:element name="Offset"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:double"&gt;
+                              &lt;/xs:element&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;
+                     &lt;/xs:element&gt;
+                     &lt;xs:element name="Result" minOccurs="0" maxOccurs="1" type="caslResult"&gt;
+                     &lt;/xs:element&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+   &lt;!--GetSystemCapabilitiesOutput--&gt;
+   &lt;xs:element name="GetSystemCapabilitiesOutput"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element  minOccurs="1" maxOccurs="unbounded" name="Capability"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Name" type="xs:string" /&gt;
+                     &lt;xs:element name="Value" type="xs:string" /&gt;
+                     &lt;xs:element name="Type" type="xs:string" /&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+   &lt;!--GetFeaturesOutput--&gt;
+   &lt;xs:element name="GetFeaturesOutput"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element  minOccurs="1" maxOccurs="unbounded" name="Feature"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Name" type="xs:string" /&gt;
+                     &lt;xs:element name="Value"  type="xs:boolean"/&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+   &lt;!--Get Diags Data Output --&gt;
+   &lt;xs:element name="GetDiagsDataOutput"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Output"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Data"
+                                 minOccurs="1"
+                                 maxOccurs="1"&gt;
+                        &lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="Warranty" minOccurs="0" maxOccurs="1" type="WarrantyValue" /&gt;
+                              &lt;xs:element name="DiagsLaunchCommandStatus" minOccurs="0" maxOccurs="1" type="xs:unsignedLong" /&gt;
+                              &lt;xs:element name="BIOSUpdateStatus" minOccurs="0" maxOccurs="1" type="xs:unsignedLong" /&gt;
+                              &lt;xs:element name="BatteryChargeControl" minOccurs="0" maxOccurs="1"&gt;
+                                 &lt;xs:complexType&gt;
+                                    &lt;xs:sequence&gt;
+                                       &lt;xs:element maxOccurs="unbounded" name="Battery"&gt;
+                                          &lt;xs:complexType&gt;
+                                             &lt;xs:sequence&gt;
+                                                &lt;xs:element name="Id" type="xs:unsignedByte" /&gt;
+                                                &lt;xs:element name="State" type="xs:unsignedByte" /&gt;
+                                             &lt;/xs:sequence&gt;
+                                          &lt;/xs:complexType&gt;
+                                       &lt;/xs:element&gt;
+                                    &lt;/xs:sequence&gt;
+                                 &lt;/xs:complexType&gt;
+                              &lt;/xs:element&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;
+                     &lt;/xs:element&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+   &lt;!-- Set Diags Data Output --&gt;
+   &lt;xs:element name="SetDiagsDataInput"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Input"
+                        minOccurs="1"
+                        maxOccurs="1"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Data"
+                                 minOccurs="1"
+                                 maxOccurs="1"&gt;
+                        &lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="Warranty" 
+                                          minOccurs="0" 
+                                          maxOccurs="1" 
+                                          type="WarrantyValue" /&gt;
+                              &lt;xs:element name="DiagsLaunchCommandStatus" 
+                                          minOccurs="0" 
+                                          maxOccurs="1" 
+                                          type="xs:unsignedLong" /&gt;
+                              &lt;xs:element name="BIOSUpdateStatus" 
+                                          minOccurs="0" 
+                                          maxOccurs="1" 
+                                          type="xs:unsignedLong" /&gt;
+                              &lt;xs:element name="BatteryChargeControl" 
+                                          minOccurs="0" 
+                                          maxOccurs="1"&gt;
+                                 &lt;xs:complexType&gt;
+                                    &lt;xs:sequence&gt;
+                                       &lt;xs:element name="Battery"
+                                                   maxOccurs="unbounded" &gt;
+                                          &lt;xs:complexType&gt;
+                                             &lt;xs:sequence&gt;
+                                                &lt;xs:element name="Id" 
+                                                            type="xs:unsignedByte" /&gt;
+                                                &lt;xs:element name="State" 
+                                                            type="xs:unsignedByte" /&gt;
+                                             &lt;/xs:sequence&gt;
+                                          &lt;/xs:complexType&gt;
+                                       &lt;/xs:element&gt;
+                                    &lt;/xs:sequence&gt;
+                                 &lt;/xs:complexType&gt;
+                              &lt;/xs:element&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;
+                     &lt;/xs:element&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+
+   &lt;!--GetPanelBrightnessPowerTablesOutput--&gt;
+   &lt;xs:element name="GetPanelBrightnessPowerTablesOutput"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Output"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Data" minOccurs="1" maxOccurs="1"&gt;
+                        &lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="PercentBrightnessTable" minOccurs="1" maxOccurs="1"&gt;
+                                 &lt;xs:complexType&gt;
+                                    &lt;xs:sequence&gt;
+                                       &lt;xs:element name="Value"
+                                                   minOccurs="11"
+                                                   maxOccurs="unbounded"
+                                                   type ="xs:unsignedLong"/&gt;
+                                    &lt;/xs:sequence&gt;
+                                 &lt;/xs:complexType&gt;
+                              &lt;/xs:element&gt;
+                              &lt;xs:element name="NitsTable" minOccurs="1" maxOccurs="1"&gt;
+                                 &lt;xs:complexType&gt;
+                                    &lt;xs:sequence&gt;
+                                       &lt;xs:element name="Value"
+                                                   minOccurs="11"
+                                                   maxOccurs="unbounded"
+                                                   type ="xs:unsignedLong" /&gt;
+                                    &lt;/xs:sequence&gt;
+                                 &lt;/xs:complexType&gt;
+                              &lt;/xs:element&gt;
+                              &lt;xs:element name="PowerTable" minOccurs="1" maxOccurs="1"&gt;
+                                 &lt;xs:complexType&gt;
+                                    &lt;xs:sequence&gt;
+                                       &lt;xs:element name="Gain"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                    type="xs:double"/&gt;
+                                       &lt;xs:element name="Offset"
+                                                   minOccurs="1"
+                                                   maxOccurs="1"
+                                                   type ="xs:double"/&gt;
+                                    &lt;/xs:sequence&gt;
+                                 &lt;/xs:complexType&gt;
+                              &lt;/xs:element&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;
+                     &lt;/xs:element&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+   &lt;!--Start of CASL 4.0 elements--&gt;
+   &lt;!-- SendMultiIconInput
+         Order: Left, middle, Right
+         Min = 1, Max = 3--&gt;
+   &lt;xs:element name="SendMultiIconInput"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Input"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Data"&gt;
+                        &lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element  minOccurs="3" maxOccurs="3" name="Icon" type="xs:string" /&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;
+                     &lt;/xs:element&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+   &lt;!--SendProgressBarInput--&gt;
+   &lt;xs:element name="SendProgressBarInput"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Input"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Data"&gt;
+                        &lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="Percentage" minOccurs="0" maxOccurs="1" type="xs:int" /&gt;
+                              &lt;xs:element name="Icon" minOccurs="0" maxOccurs="2" type="xs:string" /&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;
+                     &lt;/xs:element&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+   
+   &lt;!--GetBatteryInfoOutput--&gt;
+   &lt;xs:element name="GetBatteryInfoOutput"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Output"
+                        minOccurs="1"
+                        maxOccurs="1"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Data"
+                                 minOccurs="1"
+                                 maxOccurs="1"&gt;
+                        &lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="DesignCapacity"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:unsignedShort" /&gt;
+                              &lt;xs:element name="LastFullChargeCapacity"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:unsignedShort" /&gt;
+                              &lt;xs:element name="RemainingCapacity"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:unsignedShort" /&gt;
+                              &lt;xs:element name="MaxError"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:unsignedShort" /&gt;
+                              &lt;xs:element name="CycleCount"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:unsignedShort" /&gt;
+                              &lt;xs:element name="Temperature"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:unsignedShort" /&gt;
+                              &lt;xs:element name="Voltage"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:unsignedShort" /&gt;
+                              &lt;xs:element name="Current"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:unsignedShort" /&gt;
+                              &lt;xs:element name="DesignVoltage"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:unsignedShort" /&gt;
+                              &lt;xs:element name="StatusWord"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:unsignedShort" /&gt;
+                              &lt;xs:element name="CellVoltage1"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:unsignedShort" /&gt;
+                              &lt;xs:element name="CellVoltage2"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:unsignedShort" /&gt;
+                              &lt;xs:element name="CellVoltage3"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:unsignedShort" /&gt;
+                              &lt;xs:element name="CellVoltage4"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:unsignedShort" /&gt;
+                              &lt;xs:element name="SerialNumber"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:string" /&gt;
+                              &lt;xs:element name="Manufacturer"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:string" /&gt;
+                              &lt;xs:element name="CTLabel"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:string" /&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;
+                     &lt;/xs:element&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+   &lt;!-- LidSwitchEmulation --&gt;
+   &lt;xs:element name="LidSwitchEmulation"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Output" minOccurs="1" maxOccurs="1"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Data" minOccurs="1" maxOccurs="1"&gt;
+                        &lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="LidSwitchState"
+                                          type="LidSwitchStateValue"
+                                          minOccurs="1"
+                                          maxOccurs="1"/&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;
+                     &lt;/xs:element&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+   &lt;!-- EDIDDataEmulation --&gt;
+   &lt;xs:element name="GetEDIDDataEmulation"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Output" minOccurs="1" maxOccurs="1"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Data" minOccurs="1" maxOccurs="1"&gt;
+                        &lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="EDIDData"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:unsignedByte" /&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;
+                     &lt;/xs:element&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+   &lt;!-- EDIDDataEmulation --&gt;
+   &lt;xs:element name="GetDockEmulation"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Output" minOccurs="1" maxOccurs="1"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Data" minOccurs="1" maxOccurs="1"&gt;
+                        &lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="Dock"
+                                          minOccurs="1"
+                                          maxOccurs="1"
+                                          type="xs:unsignedByte" /&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;
+                     &lt;/xs:element&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;
+
+
+
+   &lt;!--End of CASL 4.0 elements--&gt;
+   &lt;!-- A list of custom types  for HP CASL --&gt;
+   &lt;!-- Wireless Technology Types --&gt;
+   &lt;xs:simpleType name="technologyTypeValue"&gt;
+      &lt;xs:restriction base="xs:string"&gt;
+         &lt;xs:enumeration value="WWAN"/&gt;
+         &lt;xs:enumeration value="WLAN"/&gt;
+         &lt;xs:enumeration value="Bluetooth"/&gt;
+         &lt;xs:enumeration value="GPS"/&gt;
+         &lt;xs:enumeration value="Ethernet"/&gt;
+      &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+
+   &lt;xs:simpleType name="SMCLocationType"&gt;
+      &lt;xs:restriction base="xs:string"&gt;
+         &lt;xs:annotation&gt;
+            &lt;xs:documentation&gt;
+               Possible location values include Default, Embedded, Path.
+
+               If Default, then BIOS will look in the default location for the SMC command,
+               e.g. USB key or HP_TOOLS partition. The caller is responsible for copying
+               the command to the proper location in this case.
+
+               If Embedded, then the command itself is embedded in this XML, base-64
+               encoded.
+
+               If Path, then this XML will contain the Unicode Path to the
+               location of the command. Currently Path is not supported. When Path is implemented,
+               the caller will provide a resolvable file path, and CASL will take
+               responsibility for translating the path to something that BIOS can understand,
+               or else CASL will retrieve the command from the target path, and copy
+               it to HP_TOOLs. In this latter circumstance, CASL will also take responsibility
+               for telling the BIOS that the command copied to HP_TOOLS will be in the
+               BIOS default location. The caller MUST use Path as the location.
+            &lt;/xs:documentation&gt;
+         &lt;/xs:annotation&gt;
+         &lt;xs:enumeration value="Default"/&gt;
+         &lt;xs:enumeration value="Embedded"/&gt;
+         &lt;xs:enumeration value="Path"/&gt;
+      &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+
+   &lt;!--VTEmulation--&gt;
+   &lt;xs:element name="VTEmulation"&gt;
+      &lt;xs:complexType&gt;
+         &lt;xs:sequence&gt;
+            &lt;xs:element name="Output"&gt;
+               &lt;xs:complexType&gt;
+                  &lt;xs:sequence&gt;
+                     &lt;xs:element name="Data"&gt;
+                        &lt;xs:complexType&gt;
+                           &lt;xs:sequence&gt;
+                              &lt;xs:element name="VTSupported" type="xs:boolean" /&gt;
+                              &lt;xs:element name="VTStatus" type="xs:string" /&gt;
+                           &lt;/xs:sequence&gt;
+                        &lt;/xs:complexType&gt;
+                     &lt;/xs:element&gt;
+                  &lt;/xs:sequence&gt;
+               &lt;/xs:complexType&gt;
+            &lt;/xs:element&gt;
+         &lt;/xs:sequence&gt;
+      &lt;/xs:complexType&gt;
+   &lt;/xs:element&gt;  
+   
+   
+
+   &lt;!--Custom type that list Wireless global 
+   features that are available --&gt;
+   &lt;xs:simpleType name="globalFeaturesType"&gt;
+      &lt;xs:restriction base="xs:string"&gt;
+         &lt;xs:enumeration value="WWANAntenna" /&gt;
+      &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+
+   &lt;!--Custom type to indicate the state 
+   of a device--&gt;
+   &lt;xs:simpleType name="onOffType"&gt;
+      &lt;xs:restriction base="xs:string"&gt;
+         &lt;xs:enumeration value="on" /&gt;
+         &lt;xs:enumeration value="off" /&gt;
+      &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+
+   &lt;!--Custom type to indicate the state 
+   of a drive encryption technology.--&gt;
+   &lt;xs:simpleType name="fveType"&gt;
+      &lt;xs:restriction base="xs:string"&gt;
+         &lt;xs:enumeration value="on" /&gt;
+         &lt;xs:enumeration value="off" /&gt;
+         &lt;xs:enumeration value="encrypted" /&gt;
+         &lt;xs:enumeration value="encrypting" /&gt;
+         &lt;xs:enumeration value="decrypted" /&gt;
+         &lt;xs:enumeration value="decrypting" /&gt;
+      &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+
+   &lt;!--Custom type to indicate the FVE technology of a drive encryption state --&gt;
+   &lt;xs:simpleType name="fveTechnologyType"&gt;
+      &lt;xs:restriction base="xs:string"&gt;
+         &lt;xs:enumeration value="HPFVE" /&gt;
+         &lt;xs:enumeration value="Bitlocker" /&gt;
+         &lt;xs:enumeration value="Other" /&gt;
+      &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+
+   &lt;!--Custom type to indicate the state 
+   of a device. This version includes the
+   possibility that the device state is unknown--&gt;
+   &lt;xs:simpleType name="onOffUnknownType"&gt;
+      &lt;xs:restriction base="xs:string"&gt;
+         &lt;xs:enumeration value="on" /&gt;
+         &lt;xs:enumeration value="off" /&gt;
+         &lt;xs:enumeration value="unknown"/&gt;
+      &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+
+   &lt;!--Custom type to indicate the sort of Device Manager
+   device beking dealt with--&gt;
+   &lt;xs:simpleType name="onDeviceManagerDeviceType"&gt;
+      &lt;xs:restriction base="xs:string"&gt;
+         &lt;xs:enumeration value="BusDevice" /&gt;
+         &lt;xs:enumeration value="NDISDevice" /&gt;
+         &lt;xs:enumeration value="ComPortDevice" /&gt;
+         &lt;xs:enumeration value="ModemDevice" /&gt;
+         &lt;xs:enumeration value="OtherDevice" /&gt;
+      &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+   
+   &lt;!--Custom type to indicate Yes/No --&gt;
+   &lt;xs:simpleType name="yesNoType"&gt;
+      &lt;xs:restriction base="xs:string"&gt;
+         &lt;xs:enumeration value="yes" /&gt;
+         &lt;xs:enumeration value="no" /&gt;
+      &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+   &lt;!-- Custom type to specity an Interface / Bus Types --&gt;
+   &lt;xs:simpleType name="busType"&gt;
+      &lt;xs:restriction base="xs:string"&gt;
+         &lt;xs:enumeration value="PCI"/&gt;
+         &lt;xs:enumeration value="USB"/&gt;
+      &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+   &lt;!-- Custom type to specify warranty string value--&gt;
+   &lt;!-- NOTE: Currently just a 6-char string.  Should also restrict it to numeric chars?--&gt;
+   &lt;xs:simpleType name="WarrantyValue"&gt;
+      &lt;xs:restriction  base="xs:string"&gt;
+         &lt;xs:minLength value="6"/&gt;
+         &lt;xs:maxLength value="6"/&gt;
+      &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+   &lt;!-- Custom type to specify 4HEX value--&gt;
+   &lt;xs:simpleType name="hexBinary-4"&gt;
+      &lt;xs:restriction  base="xs:hexBinary"&gt;
+         &lt;xs:minLength value="2"/&gt;
+         &lt;xs:maxLength value="2"/&gt;
+      &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+   &lt;!-- Custom type to specify 12HEX value--&gt;
+   &lt;xs:simpleType name="hexBinary-12"&gt;
+      &lt;xs:restriction  base="xs:hexBinary"&gt;
+         &lt;xs:minLength value="6"/&gt;
+         &lt;xs:maxLength value="6"/&gt;
+      &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+   &lt;!-- Custom type to a result data--&gt;
+   &lt;xs:complexType name="caslResult"&gt;
+      &lt;xs:sequence&gt;
+         &lt;xs:element name="Code"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     type="xs:hexBinary" /&gt;
+         &lt;xs:element name="Message"
+                     minOccurs="0"
+                     maxOccurs="1"
+                      type="xs:string"/&gt;
+      &lt;/xs:sequence&gt;
+   &lt;/xs:complexType&gt;
+   &lt;!-- Custom type for a decimal percentage value --&gt;
+   &lt;xs:simpleType name="DecimalPercent"&gt;
+      &lt;xs:restriction base="xs:byte"&gt;
+         &lt;xs:minInclusive value="0"/&gt;
+         &lt;xs:maxInclusive value="100"/&gt;
+      &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+   &lt;!-- Custom type for a SmartAdapter status value --&gt;
+   &lt;xs:simpleType name="SmartAdapterStatusValue"&gt;
+      &lt;xs:restriction base="xs:unsignedByte"&gt;
+         &lt;xs:minInclusive value="0"/&gt;
+         &lt;xs:maxInclusive value="3"/&gt;
+      &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+   &lt;!-- Custom type to specify a PowerSource --&gt;
+   &lt;xs:simpleType name="PowerSourceValue"&gt;
+      &lt;xs:restriction base="xs:string"&gt;
+         &lt;xs:enumeration value="Normal"/&gt;
+         &lt;xs:enumeration value="Forced_DC"/&gt;
+         &lt;xs:enumeration value="Forced_AC"/&gt;
+      &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+   &lt;!-- Custom type for a LidSwitch status value --&gt;
+   &lt;xs:simpleType name="LidSwitchStateValue"&gt;
+      &lt;xs:restriction base="xs:unsignedByte"&gt;
+         &lt;xs:minInclusive value="0"/&gt;
+         &lt;xs:maxInclusive value="3"/&gt;
+      &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+   &lt;!-- Common type to a CASL schema version --&gt;
+   &lt;xs:simpleType name="caslVersion"&gt;
+      &lt;xs:restriction base="xs:byte"&gt;
+         &lt;xs:pattern value="1"/&gt;
+      &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+&lt;/xs:schema&gt;
+</value>
+  </data>
+  <data name="DebugEmulation" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;DebugEmulation xmlns="schemas-hp-com.casl"&gt;
+   &lt;Output&gt;
+      &lt;Data&gt;
+         &lt;PowerSource&gt;Normal&lt;/PowerSource&gt;
+      &lt;/Data&gt;
+   &lt;/Output&gt;
+&lt;/DebugEmulation&gt;</value>
+  </data>
+  <data name="VTEmulation" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;VTEmulation xmlns="schemas-hp-com.casl"&gt;
+   &lt;Output&gt;
+      &lt;Data&gt;
+         &lt;VTSupported&gt;false&lt;/VTSupported&gt;
+         &lt;VTStatus&gt;&lt;/VTStatus&gt;
+      &lt;/Data&gt;
+   &lt;/Output&gt;
+&lt;/VTEmulation&gt;</value>
+  </data>
+  <data name="GetPanelBrightnessPowerTablesOutput" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;GetPanelBrightnessPowerTablesOutput xmlns="schemas-hp-com.casl"&gt;
+   &lt;Output&gt;
+      &lt;Data&gt;
+         &lt;!-- List of Power Tables--&gt;
+         &lt;PercentBrightnessTable&gt;
+            &lt;!-- List of values of current table--&gt;
+            &lt;Value&gt;1&lt;/Value&gt;
+            &lt;Value&gt;10&lt;/Value&gt;
+            &lt;Value&gt;20&lt;/Value&gt;
+            &lt;Value&gt;30&lt;/Value&gt;
+            &lt;Value&gt;40&lt;/Value&gt;
+            &lt;Value&gt;50&lt;/Value&gt;
+            &lt;Value&gt;60&lt;/Value&gt;
+            &lt;Value&gt;70&lt;/Value&gt;
+            &lt;Value&gt;80&lt;/Value&gt;
+            &lt;Value&gt;90&lt;/Value&gt;
+            &lt;Value&gt;100&lt;/Value&gt;
+         &lt;/PercentBrightnessTable&gt;
+         &lt;NitsTable&gt;
+            &lt;!-- List of values of current table--&gt;
+            &lt;Value&gt;1&lt;/Value&gt;
+            &lt;Value&gt;2&lt;/Value&gt;
+            &lt;Value&gt;3&lt;/Value&gt;
+            &lt;Value&gt;4&lt;/Value&gt;
+            &lt;Value&gt;5&lt;/Value&gt;
+            &lt;Value&gt;6&lt;/Value&gt;
+            &lt;Value&gt;7&lt;/Value&gt;
+            &lt;Value&gt;8&lt;/Value&gt;
+            &lt;Value&gt;9&lt;/Value&gt;
+            &lt;Value&gt;10&lt;/Value&gt;
+            &lt;Value&gt;11&lt;/Value&gt;
+         &lt;/NitsTable&gt;
+         &lt;PowerTable&gt;
+            &lt;Gain&gt;23&lt;/Gain&gt;
+            &lt;Offset&gt;33&lt;/Offset&gt;
+         &lt;/PowerTable&gt;
+      &lt;/Data&gt;
+   &lt;/Output&gt;
+&lt;/GetPanelBrightnessPowerTablesOutput&gt;</value>
+  </data>
+  <data name="LidSwitchEmulation" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;LidSwitchEmulation xmlns="schemas-hp-com.casl"&gt;
+   &lt;Output&gt;
+      &lt;Data&gt;
+         &lt;LidSwitchState&gt;2&lt;/LidSwitchState&gt;
+      &lt;/Data&gt;
+   &lt;/Output&gt;
+&lt;/LidSwitchEmulation&gt;</value>
+  </data>
+</root>

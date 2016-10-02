@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Windows.old\Program Files (x86)\Hewlett-Packard\Shared\Interop.HPQWMIEXLib.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6E6A5D46-3C7F-4344-AD7A-821234AF34D2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Interop.HPQWMIEXLib</AssemblyName>
+    <ApplicationVersion>4.0.112.1</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>HPQWMIEXLib</RootNamespace>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="hpqWmiEventsClass.cs" />
+    <Compile Include="hpqWmiEvents.cs" />
+    <Compile Include="IhpqWmiEvents.cs" />
+    <Compile Include="hpqCallBiosExClass.cs" />
+    <Compile Include="hpqCallBiosEx.cs" />
+    <Compile Include="IhpqCallBiosEx.cs" />
+    <Compile Include="_ICaslEventContainerEvents.cs" />
+    <Compile Include="CaslEventContainerClass.cs" />
+    <Compile Include="_ICaslEventContainerEvents_Event.cs" />
+    <Compile Include="_ICaslEventContainerEvents_CallbackEventHandler.cs" />
+    <Compile Include="_ICaslEventContainerEvents_Callback2EventHandler.cs" />
+    <Compile Include="CaslEventContainer.cs" />
+    <Compile Include="ICaslEventContainer.cs" />
+    <Compile Include="_ICaslEventContainerEvents_SinkHelper.cs" />
+    <Compile Include="_ICaslEventContainerEvents_EventProvider.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+  </ItemGroup>
+</Project>
