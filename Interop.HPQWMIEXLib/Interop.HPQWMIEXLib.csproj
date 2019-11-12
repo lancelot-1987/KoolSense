@@ -10,7 +10,7 @@
     <ApplicationVersion>4.0.112.1</ApplicationVersion>
     <FileAlignment>512</FileAlignment>
     <RootNamespace>HPQWMIEXLib</RootNamespace>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
